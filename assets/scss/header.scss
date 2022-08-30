@@ -1,7 +1,123 @@
-.header{
-    background-color: red;
+@mixin displayFlex(
+    $alignItems: center,
+    $justifyContent: space-between,
+    $flexDirection: row
+) {
+    display: flex;
+    flex-direction: $flexDirection;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
 
-    &Wrapper{
-        background-color: blue;
+@mixin font(
+    $fontSize: 16px,
+    $fontWeight: 400,
+    $fontFamily: "Inter-Regular",
+    $lineHeight: normal
+) {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    font-weight: $fontWeight;
+}
+
+.header {
+    height: 100%;
+
+    box-shadow: var(--Effect__Image);
+
+    &Wrapper {
+        @include displayFlex(stretch, flex-start, column);
+    }
+
+    &Info {
+        background-color: var(--Color__White);
+
+        padding: 15px 0;
+    }
+
+    &Info--wrapper {
+        @include displayFlex();
+    }
+
+    &Title {
+        @include displayFlex(center, flex-start);
+    }
+
+    .logo {
+        margin-right: 16px;
+
+        img {
+            max-width: 89px;
+        }
+    }
+
+    .mainTitle {
+        @include font(22px, 500);
+
+        background: var(--Color__PurpleGrey);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    &Number {
+        @include displayFlex(center, flex-start);
+
+        span {
+            max-width: 24px;
+            max-height: 24px;
+
+            margin-right: 10px;
+        }
+
+        a {
+            @include font(
+                var(--SizeText__MediunSubtitle),
+                400,
+                "MontserratAlternates-Bold"
+            );
+            color: var(--Color__Main);
+        }
+    }
+
+    &Menu {
+        width: 100%;
+        color: var(--Color__White) !important;
+
+        background: var(--Color__PurpleGrey);
+
+        .menu {
+            &List {
+                @include displayFlex(center, flex-start);
+            }
+
+            &Items {
+                padding: 24px 0;
+            }
+
+            &Item {
+                @include font(18px, 500, "Inter-Regular");
+
+                padding: 24px;
+            }
+            &Item:hover {
+                @include font(18px, 500, "Inter-Regular");
+
+                background-color: var(--Color__Main);
+                box-shadow: var(--Effect__MenuHighlight);
+            }
+
+            .btn{
+                @include displayFlex(center, center);
+                @include font(var(--SizeText__VerySmallSubtitle), 700, 'Montserrat-Bold');
+                padding: 8px 16px;
+                background: var(--Color__AccentGradient);
+                border-radius: 90px;
+
+                color: inherit;
+            }
+        }
     }
 }
