@@ -21,6 +21,12 @@
     font-weight: $fontWeight;
 }
 
+@mixin titleBlock() {
+    @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+    color: var(--Color__Main);
+    text-transform: uppercase;
+}
+
 .main {
     background-color: var(--Color__White);
 
@@ -164,24 +170,21 @@
     .ourServices {
         background-color: var(--Color__BGGrey);
 
+        padding-bottom: 48px;
+
         &--wrapper {
             @include displayFlex(center, center, column);
         }
 
         &--title {
-            @include font(
-                var(--SizeText__Title),
-                700,
-                "MontserratAlternates-Bold"
-            );
-            color: var(--Color__Main);
+            @include titleBlock();
 
             margin-bottom: 32px;
         }
 
         .listServices {
             @include displayFlex(flex-start, center);
-            
+
             flex-wrap: wrap;
             gap: 32px;
 
@@ -219,5 +222,13 @@
                 margin-bottom: 10px;
             }
         }
+    }
+
+    .offerItem--img {
+        background:
+            url(../images/offer/house1.png);
+        background-blend-mode: lighten, normal;
+        width: 150px;
+        height: 200px;
     }
 }

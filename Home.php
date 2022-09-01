@@ -164,54 +164,64 @@ Template Name: Home
                 <h2 class="ourServices--title">Наши услуги</h2>
 
                 <ul class="listServices">
-                    <li class="listServices--items" style="
-                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices1.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices1.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка квартир</p>
                             <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="
-                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices2.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices2.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Генеральная уборка</p>
                             <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="
-                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices3.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices3.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Мытье окон</p>
                             <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="
-                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices4.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices4.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка после ремонта</p>
                             <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="
-                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices5.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices5.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка офисных помещений</p>
                             <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="
-                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices6.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices6.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Поддерживающая уборка</p>
                             <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="
-                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices7.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices7.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка коттеджа</p>
                             <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
                         </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="conteiner">
+            <div class="offerWrapper">
+                <h2 class="offerWrapper--title">Что мы предлагаем</h2>
+
+                <ul class="offerList">
+                    <li class="offerList--items">
+                        <!-- <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/house1.png" alt="offerItemImg1"> -->
+                        <div class="offerItem--img"></div>
+                        <h4 class="offerItem--title">Современные и проверенные материалы</h4>
+                        <p class="offerItem--text">Все средства, используемые нами, сертифицированы. Они отвечают требованиям действующих стандартов и являются безопасными.</p>
                     </li>
                 </ul>
             </div>

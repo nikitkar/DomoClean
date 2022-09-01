@@ -125,6 +125,7 @@
 }
 .main .ourServices {
   background-color: var(--Color__BGGrey);
+  padding-bottom: 48px;
 }
 .main .ourServices--wrapper {
   display: flex;
@@ -138,6 +139,7 @@
   line-height: normal;
   font-weight: 700;
   color: var(--Color__Main);
+  text-transform: uppercase;
   margin-bottom: 32px;
 }
 .main .ourServices .listServices {
@@ -177,6 +179,12 @@
   font-weight: 700;
   color: var(--Color__White);
   margin-bottom: 10px;
+}
+.main .offerItem--img {
+  background: url(../images/offer/house1.png);
+  background-blend-mode: lighten, normal;
+  width: 150px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
