@@ -86,7 +86,7 @@
                                         Контакты
                                     </a>
                                 </li>
-                                <button class="btn">Заказать клининг</button>
+                                <button class="btn buttonStandart">Заказать клининг</button>
                             </ul>
                         </nav>
                     </div>

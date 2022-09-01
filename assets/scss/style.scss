@@ -29,16 +29,7 @@
     .slider {
         margin-bottom: 15px;
 
-        &Wrapper {
-        }
-
-        &Carousel {
-        }
-
-        &Inner {
-        }
-
-        .slick-list{
+        .slick-list {
             height: 520px;
 
             margin-bottom: 15px;
@@ -48,25 +39,28 @@
             height: 100%;
         }
 
-        .slick-dots{
+        .slick-dots {
             @include displayFlex(center, center);
             font-size: 0;
 
-            .slick-active{
-                button{
+            .slick-active {
+                button {
                     width: 12px;
                     height: 12px;
                     background: var(--Color__AccentGradient);
                 }
             }
 
-            button{
+            button {
                 width: 8px;
                 height: 8px;
                 font-size: 0;
-                margin: 0 11px;
                 background-color: var(--Color__FontGrayInactive);
                 border-radius: 50px;
+            }
+
+            li {
+                margin: 0 11px;
             }
         }
 
@@ -90,7 +84,7 @@
 
             position: relative;
         }
-        
+
         &Content--decor > h2 {
             @include font(
                 var(--SizeText__LargeSubtitle),
@@ -122,6 +116,108 @@
 
             max-width: 580px;
             z-index: 100;
+        }
+    }
+
+    &Info {
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding-bottom: 48px;
+
+        &--wrapper {
+            background-color: var(--Color__White);
+
+            padding: 24px;
+            border-radius: 48px;
+            box-shadow: var(--Effect__Wide);
+
+            text-align: center;
+
+            h3 {
+                @include font(
+                    var(--SizeText__MediunSubtitle),
+                    700,
+                    "MontserratAlternates-Bold"
+                );
+
+                color: var(--Color__Main);
+            }
+            h4 {
+                @include font(
+                    var(--SizeText__VerySmallSubtitle),
+                    700,
+                    "Montserrat-Bold"
+                );
+
+                color: var(--Color__Main);
+            }
+            p {
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+
+                color: 000;
+            }
+        }
+    }
+
+    .ourServices {
+        background-color: var(--Color__BGGrey);
+
+        &--wrapper {
+            @include displayFlex(center, center, column);
+        }
+
+        &--title {
+            @include font(
+                var(--SizeText__Title),
+                700,
+                "MontserratAlternates-Bold"
+            );
+            color: var(--Color__Main);
+
+            margin-bottom: 32px;
+        }
+
+        .listServices {
+            @include displayFlex(flex-start, center);
+            
+            flex-wrap: wrap;
+            gap: 32px;
+
+            &--items {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                border-radius: 42px;
+
+                width: 404px;
+                height: 236px;
+
+                @include displayFlex(center, flex-end, column);
+            }
+
+            &--item {
+                width: 100%;
+                background: var(--Color__MainTransparent);
+
+                border-radius: 0 0 42px 42px;
+                padding: 11px 12px;
+
+                @include displayFlex(center, center, column);
+            }
+
+            &--text {
+                @include font(
+                    var(--SizeText__VerySmallSubtitle),
+                    700,
+                    "MontserratAlternates-Bold"
+                );
+                color: var(--Color__White);
+
+                margin-bottom: 10px;
+            }
         }
     }
 }

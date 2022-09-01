@@ -143,6 +143,81 @@ Template Name: Home
             </div>
         </div>
     </section>
+
+    <section class="mainInfo" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/mainInfo/mainInfo-bg.png);">
+        <div class="conteiner">
+            <div class="mainInfo--wrapper">
+                <h3>Клининговая компания «Домоклин» предлагает клиентам из Казани услуги по профессиональной уборке помещений</h3>
+                <br>
+                <p>квартир, домов, коттеджей, офисов и другой недвижимости. Моем полы и окна, чистим технику и мебель, не оставляем ни пылинки. В распоряжении сотрудников нашей клининговой компании имеется необходимое оборудование. Его будут использовать опытные и грамотные специалисты.</p>
+                <br>
+                <h4>Мы гарантируем оперативность, качество и высокую безопасность.</h4>
+                <br>
+                <p>За 3 года присутствия на рынке наши работники успели обслужить сотни объектов, расположенных в городе Казань. Благодаря слаженности работы коллектива мы добросовестно делаем свою работу. Заказать услуги клининга и уточнить полную стоимость для конкретного случая вы сможете, если свяжетесь с нами.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="ourServices">
+        <div class="conteiner">
+            <div class="ourServices--wrapper">
+                <h2 class="ourServices--title">Наши услуги</h2>
+
+                <ul class="listServices">
+                    <li class="listServices--items" style="
+                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices1.png);">
+                        <span class="listServices--item">
+                            <p class="listServices--text">Уборка квартир</p>
+                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                        </span>
+                    </li>
+                    <li class="listServices--items" style="
+                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices2.png);">
+                        <span class="listServices--item">
+                            <p class="listServices--text">Генеральная уборка</p>
+                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                        </span>
+                    </li>
+                    <li class="listServices--items" style="
+                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices3.png);">
+                        <span class="listServices--item">
+                            <p class="listServices--text">Мытье окон</p>
+                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                        </span>
+                    </li>
+                    <li class="listServices--items" style="
+                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices4.png);">
+                        <span class="listServices--item">
+                            <p class="listServices--text">Уборка после ремонта</p>
+                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                        </span>
+                    </li>
+                    <li class="listServices--items" style="
+                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices5.png);">
+                        <span class="listServices--item">
+                            <p class="listServices--text">Уборка офисных помещений</p>
+                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                        </span>
+                    </li>
+                    <li class="listServices--items" style="
+                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices6.png);">
+                        <span class="listServices--item">
+                            <p class="listServices--text">Поддерживающая уборка</p>
+                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                        </span>
+                    </li>
+                    <li class="listServices--items" style="
+                background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices7.png);">
+                        <span class="listServices--item">
+                            <p class="listServices--text">Уборка коттеджа</p>
+                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <?php get_footer(); ?>
