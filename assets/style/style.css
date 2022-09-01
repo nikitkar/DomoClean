@@ -181,7 +181,6 @@
   margin-bottom: 10px;
 }
 .main .offerItem--img {
-  background: url(../images/offer/house1.png);
   background-blend-mode: lighten, normal;
   width: 150px;
   height: 200px;

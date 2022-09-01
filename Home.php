@@ -219,7 +219,7 @@ Template Name: Home
                 <ul class="offerList">
                     <li class="offerList--items">
                         <!-- <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/house1.png" alt="offerItemImg1"> -->
-                        <div class="offerItem--img"></div>
+                        <!-- <div class="offerItem--img"></div> -->
                         <h4 class="offerItem--title">Современные и проверенные материалы</h4>
                         <p class="offerItem--text">Все средства, используемые нами, сертифицированы. Они отвечают требованиям действующих стандартов и являются безопасными.</p>
                     </li>
