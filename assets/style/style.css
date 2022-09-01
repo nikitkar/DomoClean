@@ -1,0 +1,182 @@
+.main {
+  background-color: var(--Color__White);
+  padding-bottom: 50px;
+}
+.main .slider {
+  margin-bottom: 15px;
+}
+.main .slider .slick-list {
+  height: 520px;
+  margin-bottom: 15px;
+}
+.main .slider .slick-track {
+  height: 100%;
+}
+.main .slider .slick-dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+}
+.main .slider .slick-dots .slick-active button {
+  width: 12px;
+  height: 12px;
+  background: var(--Color__AccentGradient);
+}
+.main .slider .slick-dots button {
+  width: 8px;
+  height: 8px;
+  font-size: 0;
+  background-color: var(--Color__FontGrayInactive);
+  border-radius: 50px;
+}
+.main .slider .slick-dots li {
+  margin: 0 11px;
+}
+.main .sliderItems {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main .sliderItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.main .sliderContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main .sliderContent--decor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.main .sliderContent--decor > h2 {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__LargeSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+  z-index: 500;
+  max-width: 350px;
+  text-align: center;
+}
+.main .sliderContent--decor > h2 span {
+  font-family: "Inter-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 900;
+  color: #0caec4;
+}
+.main .sliderContent--imgLogo {
+  max-width: 350px;
+  margin-bottom: 13px;
+  z-index: 500;
+}
+.main .sliderContent--bg {
+  position: absolute;
+  top: 53%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  max-width: 580px;
+  z-index: 100;
+}
+.mainInfo {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 48px;
+}
+.mainInfo--wrapper {
+  background-color: var(--Color__White);
+  padding: 24px;
+  border-radius: 48px;
+  box-shadow: var(--Effect__Wide);
+  text-align: center;
+}
+.mainInfo--wrapper h3 {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__MediunSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+}
+.mainInfo--wrapper h4 {
+  font-family: "Montserrat-Bold";
+  font-size: var(--SizeText__VerySmallSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+}
+.mainInfo--wrapper p {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+  color: 0;
+}
+.main .ourServices {
+  background-color: var(--Color__BGGrey);
+}
+.main .ourServices--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .ourServices--title {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+  margin-bottom: 32px;
+}
+.main .ourServices .listServices {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.main .ourServices .listServices--items {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 42px;
+  width: 404px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.main .ourServices .listServices--item {
+  width: 100%;
+  background: var(--Color__MainTransparent);
+  border-radius: 0 0 42px 42px;
+  padding: 11px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .ourServices .listServices--text {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__VerySmallSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__White);
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

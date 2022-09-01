@@ -1,0 +1,106 @@
+.header {
+  height: 100%;
+  box-shadow: var(--Effect__Image);
+}
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.headerInfo {
+  background-color: var(--Color__White);
+  padding: 15px 0;
+}
+.headerInfo--wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header .logo {
+  margin-right: 16px;
+}
+.header .logo img {
+  max-width: 89px;
+}
+.header .mainTitle {
+  font-family: "Inter-Regular";
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 500;
+  background: var(--Color__PurpleGrey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.headerNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headerNumber span {
+  max-width: 24px;
+  max-height: 24px;
+  margin-right: 10px;
+}
+.headerNumber a {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__MediunSubtitle);
+  line-height: normal;
+  font-weight: 400;
+  color: var(--Color__Main);
+}
+.headerMenu {
+  width: 100%;
+  color: var(--Color__White) !important;
+  background: var(--Color__PurpleGrey);
+}
+.headerMenu .menuList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headerMenu .menuItems {
+  padding: 24px 0;
+}
+.headerMenu .menuItem {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  padding: 24px;
+}
+.headerMenu .menuItem:hover {
+  font-family: "Inter-Regular";
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  background-color: var(--Color__Main);
+  box-shadow: var(--Effect__MenuHighlight);
+}
+.headerMenu .menu .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat-Bold";
+  font-size: var(--SizeText__VerySmallSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  padding: 8px 16px;
+  background: var(--Color__AccentGradient);
+  border-radius: 90px;
+  color: inherit;
+}
+
+/*# sourceMappingURL=header.css.map */
