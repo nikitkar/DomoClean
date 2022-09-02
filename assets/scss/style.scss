@@ -24,7 +24,20 @@
 @mixin titleBlock() {
     @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
     color: var(--Color__Main);
+    text-align: center;
     text-transform: uppercase;
+}
+
+@mixin backgroundImg(
+    $urlPath,
+    $size: cover,
+    $position: center,
+    $repeat: no-repeat
+) {
+    background: url($urlPath);
+    background-position: $position;
+    background-repeat: $repeat;
+    background-size: $size;
 }
 
 .main {
@@ -224,11 +237,70 @@
         }
     }
 
-    .offerItem--img {
-        // background:
-        //     url(../images/offer/house1.png);
-        background-blend-mode: lighten, normal;
-        width: 150px;
-        height: 200px;
+    &Wrapper {
+        background-color: var(--Color__BGGrey);
+
+        &--shadow {
+            box-shadow: var(--Effect__Wide);
+            border-radius: 48px;
+        }
+    }
+
+    .offerWrapper {
+        @include displayFlex(center, center, column);
+        gap: 48px;
+        
+        padding: 48px 0;
+        background-color: var(--Color__White);
+        border-radius: 48px 48px 0 0 ;
+
+        &--title {
+            @include titleBlock();
+        }
+
+        .offerList {
+            @include displayFlex(flex-start, space-evenly);
+
+            flex-wrap: wrap;
+            gap: 24px;
+
+            &--items {
+                @include displayFlex(center, space-evenly, column);
+
+                gap: 15px;
+                max-width: 248px;
+
+                .offerItem {
+                    &--imgInner {
+                        @include displayFlex(center, center, column);
+
+                        width: 137px;
+                        height: 125px;
+                    }
+
+                    &--img {
+                        width: 106px;
+                    }
+
+                    &--title {
+                        @include font(
+                            var(--SizeText__VerySmallSubtitle),
+                            700,
+                            "Montserrat"
+                        );
+                        color: var(--Color__Main);
+                        text-align: center;
+                    }
+
+                    &--text {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .offerBtn {
+            margin: 0 auto;
+        }
     }
 }

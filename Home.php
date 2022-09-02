@@ -211,22 +211,50 @@ Template Name: Home
         </div>
     </section>
 
-    <section class="offer">
+    <div class="mainWrapper">
         <div class="conteiner">
-            <div class="offerWrapper">
-                <h2 class="offerWrapper--title">Что мы предлагаем</h2>
+            <div class="mainWrapper--shadow">
+                <section class="offer">
+                    <div class="offerWrapper">
+                        <h2 class="offerWrapper--title">Что мы предлагаем</h2>
 
-                <ul class="offerList">
-                    <li class="offerList--items">
-                        <!-- <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/house1.png" alt="offerItemImg1"> -->
-                        <!-- <div class="offerItem--img"></div> -->
-                        <h4 class="offerItem--title">Современные и проверенные материалы</h4>
-                        <p class="offerItem--text">Все средства, используемые нами, сертифицированы. Они отвечают требованиям действующих стандартов и являются безопасными.</p>
-                    </li>
-                </ul>
+                        <ul class="offerList">
+                            <li class="offerList--items">
+                                <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor1.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg1.png" alt="offerItemImg1">
+                                </div>
+                                <h4 class="offerItem--title">Современные и проверенные материалы</h4>
+                                <p class="offerItem--text">Все средства, используемые нами, сертифицированы. Они отвечают требованиям действующих стандартов и являются безопасными.</p>
+                            </li>
+                            <li class="offerList--items">
+                                <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor2.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg2.png" alt="offerItemImg2">
+                                </div>
+                                <h4 class="offerItem--title">Удобные услуги</h4>
+                                <p class="offerItem--text">Специалисты компании «Домоклин» все возьмут с собой. Обеспечивать нас оборудованием и чистящими средствами не нужно. Просто позаботьтесь о доступе к электричеству и воде. Остальное мы сделаем сами.</p>
+                            </li>
+                            <li class="offerList--items">
+                                <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor3.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg3.png" alt="offerItemImg3">
+                                </div>
+                                <h4 class="offerItem--title">Экономия времени клиентов</h4>
+                                <p class="offerItem--text">Пунктуальность и ответственность – наши основные принципы. Занимайтесь решением стоящих перед вами задач, не думайте о качестве уборки. Быстрый и качественный сервис – наш конек.</p>
+                            </li>
+                            <li class="offerList--items">
+                                <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor4.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg4.png" alt="offerItemImg4">
+                                </div>
+                                <h4 class="offerItem--title">Добросовестность</h4>
+                                <p class="offerItem--text">Если качество услуг вас не удовлетворит, мы все исправим. Без прибавки к стоимости. Принимаем аргументированные замечания.</p>
+                            </li>
+                        </ul>
+
+                        <button class="offerBtn buttonStandart">Узнать цены на клининг</button>
+                    </div>
+                </section>
             </div>
         </div>
-    </section>
+    </div>
 
 
 </main>
