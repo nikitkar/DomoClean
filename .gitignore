@@ -3,5 +3,4 @@
 *.sass.map
 *.scss.map
 
-**/style
-slick.css
+**/style/
