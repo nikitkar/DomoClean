@@ -423,6 +423,23 @@ Template Name: Home
             </div>
         </section>
 
+        <section class="ourStocks">
+            <div class="conteiner">
+                <div class="ourStocksWrapper">
+                    <h2 class="ourStocksTitle">Наши акции</h2>
+
+                    <ul class="ourStocksSlider">
+                        <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                            <div class="ourStocksItems--content">
+                                <h2 class="ourStocksItems--title">Всем новоселам скидка 10%</h2>
+                                <p class="ourStocksItems--text">на уборку квартиры после ремонта</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     </section>
 </main>
 

@@ -8,6 +8,14 @@ $(function () {
     });
 });
 
+$(function () {
+    $(".ourStocksSlider").slick({
+        dots: false,
+        infinite: false,
+        arrows: true,
+    });
+});
+
 let acc = document.getElementsByClassName("itemBtn");
 
 for (let i = 0; i < acc.length; i++) {
