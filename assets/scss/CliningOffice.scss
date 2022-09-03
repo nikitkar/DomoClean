@@ -1,0 +1,178 @@
+@mixin displayFlex(
+    $alignItems: center,
+    $justifyContent: space-between,
+    $flexDirection: row
+) {
+    display: flex;
+    flex-direction: $flexDirection;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
+
+@mixin font(
+    $fontSize: 16px,
+    $fontWeight: 400,
+    $fontFamily: "Inter-Regular",
+    $lineHeight: normal
+) {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    font-weight: $fontWeight;
+}
+
+.main{
+
+    background-color: var(--Color__BGGrey);
+
+    .breadcrumbs{
+        &--info{
+            margin-top: 12px;
+            padding: 24px 0px;
+            background-color: var(--Color__BGGrey);
+        }
+        &--main{
+            text-decoration: underline;
+            color: var(--Color__Main);
+            @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
+        }
+        &--separator{
+            color: var(--Color__Main);
+            @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
+        }
+        &--child{
+            color: var(--Color__Main);
+            @include font(var(--SizeText__Bold), 700, "Inter-Regular");
+        }
+    }
+
+    .mainWrapper--inner{
+
+        background-color: var(--Color__White);
+        border-radius: 48px;
+        box-shadow: var(--Effect__Wide);
+        padding: 48px 0px;
+
+        .CleaningAfterRenovation{
+            &--info{
+                padding: 0px 48px 24px;
+            }
+            
+            &--title{
+                text-align: center;
+                margin-bottom: 24px;
+                @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+                text-transform: uppercase;
+                color: var(--Color__Main);
+            }
+
+            &--text{
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+            }
+        }
+
+        .WhyCleaning{
+            &--info{
+                padding: 0px 48px 24px;
+            }
+
+            &--title{
+                text-align: center;
+                margin-bottom: 24px;
+                @include font(var(--SizeText__LargeSubtitle), 700, "MontserratAlternates-Bold");
+                color: var(--Color__Main);
+            }
+
+            &Img{
+                border-radius: 48px;
+                overflow: hidden;
+                margin-bottom: 24px;
+
+                &--img{
+                    width: 100%;
+                    height: 279px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+
+            &--text{
+                @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+            }
+
+        }
+
+        .StandardServices{
+            &Text{
+                padding: 0px 48px 24px;
+            }
+
+            &--title{
+                text-align: center;
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                margin-bottom: 24px;
+                @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+                text-transform: uppercase;
+                color: var(--Color__Main);
+            }
+
+            &--text{
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+            }
+
+            &Block{
+
+                background-color: var(--Color__White);
+                padding: 0px 48px;
+
+                &--info{
+                    @include displayFlex(flex-start, normal);
+                    flex-wrap: wrap;
+                    gap: 32px;
+                    
+                }
+
+                &--items {
+                    @include displayFlex(center, normal, column);
+
+                    background-color: var(--Color__BGGrey);
+                    border-radius: 48px;
+                    padding: 24px 24px 30px;
+                    max-width: 373px;
+                    height: 100%;
+                    min-height: 645px;
+                    &--small{
+                        min-height: 430px;
+                    }
+                }
+
+                &--imgInner {
+                    @include displayFlex(center, center, column);
+    
+                    width: 87px;
+                    height: 74px;
+                }
+    
+                &--img {
+                    width: 87px;
+                }
+    
+                &--title {
+                    @include font(var(--SizeText__VerySmallSubtitle), 700, "Montserrat-Bold");
+                    width: 100%;
+                    text-align: left;
+                }
+    
+                &--text {
+                    @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                }
+            }
+            
+        }
+
+
+    }
+}

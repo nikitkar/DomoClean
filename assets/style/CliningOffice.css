@@ -1,0 +1,161 @@
+.main {
+  background-color: var(--Color__BGGrey);
+}
+.main .breadcrumbs--info {
+  margin-top: 12px;
+  padding: 24px 0px;
+  background-color: var(--Color__BGGrey);
+}
+.main .breadcrumbs--main {
+  text-decoration: underline;
+  color: var(--Color__Main);
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__LinkBlue);
+  line-height: normal;
+  font-weight: 400;
+}
+.main .breadcrumbs--separator {
+  color: var(--Color__Main);
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__LinkBlue);
+  line-height: normal;
+  font-weight: 400;
+}
+.main .breadcrumbs--child {
+  color: var(--Color__Main);
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Bold);
+  line-height: normal;
+  font-weight: 700;
+}
+.main .mainWrapper--inner {
+  background-color: var(--Color__White);
+  border-radius: 48px;
+  box-shadow: var(--Effect__Wide);
+  padding: 48px 0px;
+}
+.main .mainWrapper--inner .CleaningAfterRenovation--info {
+  padding: 0px 48px 24px;
+}
+.main .mainWrapper--inner .CleaningAfterRenovation--title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--Color__Main);
+}
+.main .mainWrapper--inner .CleaningAfterRenovation--text {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.main .mainWrapper--inner .WhyCleaning--info {
+  padding: 0px 48px 24px;
+}
+.main .mainWrapper--inner .WhyCleaning--title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__LargeSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+}
+.main .mainWrapper--inner .WhyCleaningImg {
+  border-radius: 48px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.main .mainWrapper--inner .WhyCleaningImg--img {
+  width: 100%;
+  height: 279px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main .mainWrapper--inner .WhyCleaning--text {
+  font-family: "Inter-Bold";
+  font-size: var(--SizeText__Bold);
+  line-height: normal;
+  font-weight: 700;
+}
+.main .mainWrapper--inner .StandardServicesText {
+  padding: 0px 48px 24px;
+}
+.main .mainWrapper--inner .StandardServices--title {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--Color__Main);
+}
+.main .mainWrapper--inner .StandardServices--text {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.main .mainWrapper--inner .StandardServicesBlock {
+  background-color: var(--Color__White);
+  padding: 0px 48px;
+}
+.main .mainWrapper--inner .StandardServicesBlock--info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: normal;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.main .mainWrapper--inner .StandardServicesBlock--items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: normal;
+  background-color: var(--Color__BGGrey);
+  border-radius: 48px;
+  padding: 24px 24px 30px;
+  max-width: 373px;
+  height: 100%;
+  min-height: 645px;
+}
+.main .mainWrapper--inner .StandardServicesBlock--items--small {
+  min-height: 430px;
+}
+.main .mainWrapper--inner .StandardServicesBlock--imgInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 87px;
+  height: 74px;
+}
+.main .mainWrapper--inner .StandardServicesBlock--img {
+  width: 87px;
+}
+.main .mainWrapper--inner .StandardServicesBlock--title {
+  font-family: "Montserrat-Bold";
+  font-size: var(--SizeText__VerySmallSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+}
+.main .mainWrapper--inner .StandardServicesBlock--text {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=CliningOffice.css.map */
