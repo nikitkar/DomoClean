@@ -299,6 +299,100 @@ Template Name: Home
                 </div>
             </div>
         </section>
+
+        <section class="feedback">
+            <div class="conteiner">
+                <div class="feedbackWrapper">
+                    <h3 class="feedbackTitle">Получите бесплатную консультацию<br> и расчет стоимости уборки</h3>
+                    <p class="feedbackText">Оставьте свой номер телефона и наш менеджер перезвонит вам в течение 15 минут</p>
+                    <form class="feedbackForm">
+                        <input class="feedbackForm--input" type="tel" placeholder="Номер телефона">
+                        <button class="feedbackBtn buttonStandart">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="commentCustomers">
+            <div class="conteiner">
+                <div class="commentCustomersWrapper">
+                    <h2 class="commentCustomersTitle">Отзывы наших клиентов</h2>
+
+                    <div class="commentCustomersContent">
+                        <div class="commentCustomersContent--wrapper">
+                            <div class="commentContentTitle">
+                                <div class="commentTitle--img">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.jpg" alt="commentTitleAvatar">
+                                </div>
+                                <div class="commentTitle--personInfo">
+                                    <p class="commentTitle--personInfoName">Ахметова Ф.Р.</p>
+                                    <span class="commentTitle--personInfoWhatDoes">Врач аллерголог</span>
+                                    <div class="commentTitle--personInfoEstimation">
+                                        <div class="personInfoEstimationStar">
+                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                            <span class="star starInactive">
+                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__FontGrayInactive)" stroke="var(--Color__FontGrayInactive)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <span class="personInfoEstimation--Estimation">4,9</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="commentContentText">
+                                <p class="commentContentText--text">
+                                    Вне зависимости от того, где вы живете – в коттедже за пределами города или в квартире, я рекомендую, будучи доктором (аллерголог, стаж – 10 лет), с наступлением весны проводить генеральную уборку. Клининг в это время необходим по объективной причине. За зиму, когда проветривание дома или квартиры ограничено, в комнатах скапливаются пыль и грязь, особенно в труднодоступных местах. Появляются аллергены и благоприятные для размножения нежелательных микроорганизмов условия.
+                                    Нужна тщательная уборка после зимы и аллергикам, и людям, проживающим с детьми. Генеральная предполагает ряд мероприятий. Это влажная уборка и сухая. Нужно «генералить» чаще, но смена сезонов – повод, чтобы задуматься о наведении чистоты. Это в первую очередь забота о собственном здоровье.
+                                    Когда времени не остается, мы с семьей привлекаем клинеров.
+                                    Ничего плохого сказать о компании не могу. В Казани давно, пользуемся клининговыми услугами регулярно. Сотрудники фирмы всегда делают работу качественно. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="commentCustomersBtn  buttonStandart" href="/">Перейти к отзывам</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+            <div class="conteiner">
+                <div class="questionsWrapper">
+                    <h2 class="questionsTitle">Вопросы и ответы</h2>
+
+                    <ul class="questionsList">
+                        <li class="questionsItems">
+                            <button class="itemBtn">Сколько в среднем занимает уборка?</button>
+                            <div class="itemInner">
+                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                            </div>
+                        </li>
+                        <li class="questionsItems">
+                            <button class="itemBtn">Сколько в среднем занимает уборка?</button>
+                            <div class="itemInner">
+                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
     </section>
 </main>
 
