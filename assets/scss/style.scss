@@ -509,7 +509,7 @@
                             border-radius: 50%;
                         }
                     }
-                    
+
                     &--personInfo {
                         @include displayFlex(flex-start, center, column);
 
@@ -539,41 +539,86 @@
         }
     }
 
-    .questions{
+    .questions {
         margin-bottom: 48px;
 
-        &Wrapper{
+        &Wrapper {
             @include displayFlex(center, center, column);
 
             gap: 32px;
         }
 
-        &List{
+        &Title {
+            @include titleBlock();
+        }
+
+        &List {
             @include displayFlex(center, center, column);
 
             gap: 32px;
+
+            width: 100%;
         }
 
-        &Items{
+        &Items {
             @include displayFlex(center, flex-start, column);
 
-            .item{
-                &Btn{
+            width: 100%;
+
+            .item {
+                &Btn {
                     width: 100%;
-                    padding: 18.5 24px;
+                    padding: 18.5px 24px;
                     background-color: var(--Color__BGGrey);
 
-                    @include font(var(--SizeText__MediunSubtitle), 700, "MontserratAlternates-Bold");
+                    @include font(
+                        var(--SizeText__MediunSubtitle),
+                        700,
+                        "MontserratAlternates-Bold"
+                    );
                     color: var(--Color__Main);
                     cursor: pointer;
+                    text-align: left;
+
+                    border-radius: 24px;
                 }
 
-                &Inner{
-                    display: none;
-                    padding-top: 24px; 
+                &Btn:after {
+                    content: "";
+                    @include backgroundImg(
+                        "../images/questionDecor/decor.svg",
+                        contain
+                    );
+                    float: right;
+                    width: 20px;
+                    height: 20px;
 
-                    @include font(var(--SizeText__VerySmallSubtitle), 400, "Inter-Regular");
+                    transition: 0.4s;
                 }
+
+                &Inner {
+                    max-height: 0;
+                    overflow: hidden;
+
+                    @include font(
+                        var(--SizeText__VerySmallSubtitle),
+                        400,
+                        "Inter-Regular"
+                    );
+
+                    transition: all 0.2s ease-out;
+                }
+            }
+
+            .active::after {
+                content: "";
+                @include backgroundImg(
+                    "../images/questionDecor/decorReverse.svg",
+                    contain
+                );
+                float: right;
+                width: 20px;
+                height: 20px;
             }
         }
     }
