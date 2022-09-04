@@ -623,35 +623,64 @@
         }
     }
 
-    .ourStocks{
+    .ourStocks {
         margin-bottom: 48px;
 
-        &Wrapper{
+        &Wrapper {
             @include displayFlex(center, center, column);
 
             gap: 48px;
         }
 
-        &Title{
+        &Title {
             @include titleBlock();
         }
 
-        &Slider{
+        &Slider {
+            @include displayFlex(center, center);
+
+            gap: 10px;
+
             height: 435px;
             width: 100%;
 
-            .slick{
-
-                &-list{
+            .slick {
+                &-list {
                     height: 100%;
                 }
-                &-track{
+                &-track {
                     height: 100%;
+                }
+
+                &-arrow {
+                    max-width: 72px;
+                    min-width: 72px;
+                    width: 72px;
+                    height: 72px;
+
+                    border-radius: 50%;
+                    font-size: 0;
+                }
+
+                &-prev {
+                    @include backgroundImg(
+                        "../images/ourStocks/decor/ourStocksArrowImgPrev.svg",
+                        auto
+                    );
+                    background-color: var(--Color__BGGrey);
+                }
+
+                &-next {
+                    @include backgroundImg(
+                        "../images/ourStocks/decor/ourStocksArrowImgNext.svg",
+                        auto
+                    );
+                    background-color: var(--Color__BGGrey);
                 }
             }
         }
 
-        &Items{
+        &Items {
             @include displayFlex(flex-end, center, column);
 
             padding: 30px;
@@ -661,7 +690,7 @@
 
             border-radius: 42px;
 
-            &--content{
+            &--content {
                 @include displayFlex(flex-end, center, column);
 
                 gap: 20px;
@@ -670,15 +699,19 @@
                 width: 100%;
             }
 
-            &--title{
+            &--title {
                 @include titleBlock();
 
                 color: Var(--Color__White);
                 text-align: center;
             }
 
-            &--text{
-                @include font(var(--SizeText__MediunSubtitle), 700, "MontserratAlternates-Bold");
+            &--text {
+                @include font(
+                    var(--SizeText__MediunSubtitle),
+                    700,
+                    "MontserratAlternates-Bold"
+                );
 
                 color: Var(--Color__White);
                 text-align: center;

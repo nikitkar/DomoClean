@@ -219,29 +219,29 @@ Template Name: Home
 
                     <ul class="offerList">
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor1.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg1.png" alt="offerItemImg1">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/offerDecor1.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="offerItemImg1">
                             </div>
                             <h4 class="offerItem--title">Современные и проверенные материалы</h4>
                             <p class="offerItem--text">Все средства, используемые нами, сертифицированы. Они отвечают требованиям действующих стандартов и являются безопасными.</p>
                         </li>
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor2.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg2.png" alt="offerItemImg2">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/offerDecor2.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="offerItemImg2">
                             </div>
                             <h4 class="offerItem--title">Удобные услуги</h4>
                             <p class="offerItem--text">Специалисты компании «Домоклин» все возьмут с собой. Обеспечивать нас оборудованием и чистящими средствами не нужно. Просто позаботьтесь о доступе к электричеству и воде. Остальное мы сделаем сами.</p>
                         </li>
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor3.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg3.png" alt="offerItemImg3">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/offerDecor3.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.png" alt="offerItemImg3">
                             </div>
                             <h4 class="offerItem--title">Экономия времени клиентов</h4>
                             <p class="offerItem--text">Пунктуальность и ответственность – наши основные принципы. Занимайтесь решением стоящих перед вами задач, не думайте о качестве уборки. Быстрый и качественный сервис – наш конек.</p>
                         </li>
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/offer/decor/offerDecor4.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/offer/offerImg4.png" alt="offerItemImg4">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/offerDecor4.png); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img4.png" alt="offerItemImg4">
                             </div>
                             <h4 class="offerItem--title">Добросовестность</h4>
                             <p class="offerItem--text">Если качество услуг вас не удовлетворит, мы все исправим. Без прибавки к стоимости. Принимаем аргументированные замечания.</p>
@@ -365,7 +365,7 @@ Template Name: Home
                         </div>
                     </div>
 
-                    <a class="commentCustomersBtn  buttonStandart" href="/">Перейти к отзывам</a>
+                    <a class="commentCustomersBtn  buttonStandart" href="javascript:void(0);">Перейти к отзывам</a>
                 </div>
             </div>
         </section>
@@ -435,7 +435,15 @@ Template Name: Home
                                 <p class="ourStocksItems--text">на уборку квартиры после ремонта</p>
                             </div>
                         </li>
+                        <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                            <div class="ourStocksItems--content">
+                                <h2 class="ourStocksItems--title">Всем новоселам скидка 10%</h2>
+                                <p class="ourStocksItems--text">на уборку квартиры после ремонта</p>
+                            </div>
+                        </li>
                     </ul>
+
+                    <a class="ourStocksBtn  buttonStandart" href="javascript:void(0);">Перейти к акциям</a>
                 </div>
             </div>
         </section>
