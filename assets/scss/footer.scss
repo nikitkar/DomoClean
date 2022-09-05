@@ -1,0 +1,130 @@
+@import 'style';
+
+.footer{
+    background-color: var(--Color__BGGrey);
+
+    padding-bottom: 70px;
+
+    &Wrapper{
+        @include displayFlex(center, center, column);
+        gap: 30px;
+    }
+
+    &List{
+        width: 100%;
+
+        @include displayFlex(flex-start, space-between);
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &Items{
+        padding: 12px 24px;
+
+        @include displayFlex(flex-start, center, column);
+        gap: 8px;
+    }
+
+    &Logo{
+        width: 401px;
+    }
+
+    &Item{
+        @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
+
+        color: var(--Color__Main);
+        text-decoration: underline;
+
+        padding: 8px;
+
+        &--title{
+            @include font(var(--SizeText__Small), 700, "Inter-Bold");
+            color: #4F4F4F;
+
+            padding: 0;
+            padding-left: 8px;
+        }
+
+        &--tel{
+            @include displayFlex(center, center);
+            gap: 10px;
+
+            @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+            color: #4F4F4F;
+
+            &img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        &--workingTime{
+            @include displayFlex(center, center);
+            gap: 10px;
+
+            @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+            color: #4F4F4F;
+
+            span{
+                @include font(var(--SizeText__Small), 400, "Inter-Regular");
+                color: #4F4F4F;
+                text-transform: lowercase;
+            }
+
+            &img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        &--location{
+            @include displayFlex(center, center);
+            gap: 10px;
+
+            @include font(var(--SizeText__Small), 400, "Inter-Regular");
+            color: #4F4F4F;
+
+            a{
+                @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
+        
+                color: var(--Color__Main);
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &PaymentMethod{
+        @include displayFlex(center, space-between);
+        width: 100%;
+
+        &--privacyPolicy{
+            @include displayFlex(flex-start, center, column);
+
+            max-width: 515px;
+            width: 100%;
+
+            p{
+                @include font(var(--SizeText__Small), 400, "Inter-Regular");
+                color: #333333;
+            }
+
+            a{
+                @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
+        
+                color: var(--Color__Main);
+                text-decoration: underline;
+        
+            }
+        }
+
+        &--list{
+            @include displayFlex(center, flex-start);
+            width: 100%;
+        }
+
+        &--items{
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
