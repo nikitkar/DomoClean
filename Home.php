@@ -167,7 +167,7 @@ Template Name: Home
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices1.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка квартир</p>
-                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                            <a class="listServices--button  buttonStandart" href="/cleacning-apartments">Подробнее</a>
                         </span>
                     </li>
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices2.png);">
@@ -185,7 +185,7 @@ Template Name: Home
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices4.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка после ремонта</p>
-                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                            <a class="listServices--button  buttonStandart" href="/cleaning-after-repair">Подробнее</a>
                         </span>
                     </li>
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices5.png);">
@@ -197,13 +197,13 @@ Template Name: Home
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices6.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Поддерживающая уборка</p>
-                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                            <a class="listServices--button  buttonStandart" href="/supportive-cleaning">Подробнее</a>
                         </span>
                     </li>
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices7.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка коттеджа</p>
-                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                            <a class="listServices--button  buttonStandart" href="/cottage-cleaning">Подробнее</a>
                         </span>
                     </li>
                 </ul>
@@ -248,7 +248,11 @@ Template Name: Home
                         </li>
                     </ul>
 
-                    <button class="offerBtn buttonStandart">Узнать цены на клининг</button>
+                    <button class="offerBtn buttonStandart">
+                        <a href="#feedback">
+                            Узнать цены на клининг
+                        </a>
+                    </button>
                 </div>
             </div>
         </section>
@@ -300,7 +304,7 @@ Template Name: Home
             </div>
         </section>
 
-        <section class="feedback">
+        <section class="feedback" id="feedback">
             <div class="conteiner">
                 <div class="feedbackWrapper">
                     <h3 class="feedbackTitle">Получите бесплатную консультацию<br> и расчет стоимости уборки</h3>
@@ -379,43 +383,40 @@ Template Name: Home
                         <li class="questionsItems">
                             <button class="itemBtn">Сколько в среднем занимает уборка?</button>
                             <div class="itemInner">
-                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                                <p>В среднем клининг занимает от 2-8 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений и особенностями заказанной услуги</p>
                             </div>
                         </li>
                         <li class="questionsItems">
                             <button class="itemBtn">Гарантируете ли вы сохранность вещей?</button>
                             <div class="itemInner">
-                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                                <p>Наши клинеры несут полную материальную ответственность. Переживать за сохранность вещей, мебели и других предметов не стоит. Мы уверены в честности и добросовестности сотрудников. Перед принятием на работу каждого специалиста осуществляется жесткий отбор. Требования к соискателям высокие. Сомнительное прошлое, негативные рекомендации – это служит поводом для отказа в трудоустройстве.
+                                    <br><br>
+                                    Если есть сомнения, вы можете составить опись имущества. Это станет дополнительной гарантией и залогом спокойствия.
+                                </p>
                             </div>
                         </li>
                         <li class="questionsItems">
                             <button class="itemBtn">Как оплатить клининг?</button>
                             <div class="itemInner">
-                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                                <p>Оплата осуществляется после принятия работ. Способ выбирает клиент. Мы принимаем оплату переводом или наличными.</p>
                             </div>
                         </li>
                         <li class="questionsItems">
                             <button class="itemBtn">Входит ли мытье окон в стандартную услугу?</button>
                             <div class="itemInner">
-                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                                <p>Это дополнительная услуга. Оплачивать ее потребуется отдельно. Узнать полную стоимость уборки вместе с окнами вы можете у сотрудников или на сайте. При необходимости можно оставить заявку на мойку жалюзи и оконных решеток, иных защищающих конструкций.</p>
                             </div>
                         </li>
                         <li class="questionsItems">
                             <button class="itemBtn">Возможна ли уборка за чертой Казани(в пригороде)?</button>
                             <div class="itemInner">
-                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
-                            </div>
-                        </li>
-                        <li class="questionsItems">
-                            <button class="itemBtn">Какая разница между генеральной уборкой и послеремонтной?</button>
-                            <div class="itemInner">
-                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                                <p>Да, конечно. Доплата выезда за город составит +1000 рублей.</p>
                             </div>
                         </li>
                         <li class="questionsItems">
                             <button class="itemBtn">Вы делаете химчистку мебели и ковров?</button>
                             <div class="itemInner">
-                                <p>Зависит от площади. К примеру, уборка однокомнатной квартиры займет меньше времени, чем двухкомнатной. На трехкомнатную уйдет еще больше. Однако определяющим критерием является именно метраж. В среднем клининг занимает 2-5 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений, особенностями заказанной услуги. </p>
+                                <p>Нет, мы не делаем химчистку мебели и ковровых покрытий.Только вакуумная чистка</p>
                             </div>
                         </li>
                     </ul>
@@ -435,12 +436,12 @@ Template Name: Home
                                 <p class="ourStocksItems--text">на уборку квартиры после ремонта</p>
                             </div>
                         </li>
-                        <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                        <!-- <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
                             <div class="ourStocksItems--content">
                                 <h2 class="ourStocksItems--title">Всем новоселам скидка 10%</h2>
                                 <p class="ourStocksItems--text">на уборку квартиры после ремонта</p>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <a class="ourStocksBtn  buttonStandart" href="javascript:void(0);">Перейти к акциям</a>

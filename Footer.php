@@ -12,18 +12,18 @@
                                 <a class="footerItem" href="javascript:void(0);">Акции и скидки</a>
                                 <a class="footerItem" href="javascript:void(0);">Сертификаты</a>
                                 <a class="footerItem" href="javascript:void(0);">Вакансии</a>
-                                <a class="footerItem" href="javascript:void(0);">Контакты</a>
+                                <a class="footerItem" href="/contacts">Контакты</a>
                                 <a class="footerItem" href="javascript:void(0);">Статьи</a>
                                 <a class="footerItem" href="javascript:void(0);">Видео</a>
                                 <a class="footerItem" href="javascript:void(0);">Рекламодателям</a>
                             </li>
                             <li class="footerItems">
                                 <h4 class="footerItem--title">Основные услуги</h4>
-                                <a class="footerItem" href="javascript:void(0);">Уборка квартиры</a>
-                                <a class="footerItem" href="javascript:void(0);">Генеральная уборка</a>
-                                <a class="footerItem" href="javascript:void(0);">Уборка коттеджа</a>
-                                <a class="footerItem" href="javascript:void(0);">Уборка офиса</a>
-                                <a class="footerItem" href="javascript:void(0);">Уборка после ремонта</a>
+                                <a class="footerItem" href="cleacning-apartments">Уборка квартиры</a>
+                                <a class="footerItem" href="">Генеральная уборка</a>
+                                <a class="footerItem" href="/cottage-cleaning">Уборка коттеджа</a>
+                                <a class="footerItem" href="">Уборка офиса</a>
+                                <a class="footerItem" href="/cleaning-after-repair">Уборка после ремонта</a>
                             </li>
                             <li class="footerItems">
                                 <a class="footerItem--tel" href="tel:+89003287500">

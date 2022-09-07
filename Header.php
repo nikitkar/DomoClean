@@ -48,7 +48,7 @@
                             <nav class="menu">
                                 <ul class="menuList">
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/abour">
                                             О нас
                                         </a>
                                     </li>
@@ -83,7 +83,7 @@
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/contacts">
                                             Контакты
                                         </a>
                                     </li>
@@ -96,7 +96,7 @@
                                     </button>
                                     <ul class="menuList--modileNav" id="sidebar">
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/about">
                                                 О нас
                                             </a>
                                         </li>
@@ -131,7 +131,7 @@
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/contacts">
                                                 Контакты
                                             </a>
                                         </li>
