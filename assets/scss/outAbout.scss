@@ -1,0 +1,24 @@
+@import "style";
+
+.mainWrapper {
+    &--inner {
+        @include displayFlex(flex-start, center, column);
+        gap: 32px;
+    }
+
+    .ourAbout {
+        background-color: var(--Color__White);
+
+        border-radius: 48px;
+        padding: 48px;
+        box-shadow: var(--Effect__Wide);
+    }
+
+    .feedback {
+        width: 100%;
+
+        &Wrapper {
+            background-color: var(--Color__White);
+        }
+    }
+}
