@@ -9,6 +9,11 @@ add_action('wp_enqueue_scripts', function(){
     wp_enqueue_style('header', get_template_directory_uri() . '/assets/style/header.css');
     wp_enqueue_style('footer', get_template_directory_uri() . '/assets/style/footer.css');
     wp_enqueue_style('style', get_template_directory_uri() . '/assets/style/style.css');
+    wp_enqueue_style('outAbout', get_template_directory_uri() . '/assets/style/outAbout.css');
+    wp_enqueue_style('cleaningKazan', get_template_directory_uri() . '/assets/style/cleaningApartmentsKazan.css');
+    wp_enqueue_style('cliningOffice', get_template_directory_uri() . '/assets/style/CliningOffice.css');
+    wp_enqueue_style('maintenanceCleaning', get_template_directory_uri() . '/assets/style/MaintenanceCleaning.css');
+    wp_enqueue_style('cottageСleaning', get_template_directory_uri() . '/assets/style/CottageClining.css');
 
 
 

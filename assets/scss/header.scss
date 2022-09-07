@@ -78,6 +78,10 @@
                 400,
                 "MontserratAlternates-Bold"
             );
+
+            @media screen and (max-width: 400px) {
+                font-size: 18px;
+            }
             color: var(--Color__Main);
         }
     }
@@ -88,36 +92,190 @@
 
         background: var(--Color__PurpleGrey);
 
-        .menu {
-            &List {
-                @include displayFlex(center, flex-start);
-            }
+        @media screen and (min-width: 1300px) {
+            .menu {
+                &List {
+                    @include displayFlex(center, flex-start);
 
-            &Items {
-                padding: 24px 0;
-            }
+                    &--modile {
+                        display: none;
+                    }
+                }
 
-            &Item {
-                @include font(18px, 500, "Inter-Regular");
+                &Items {
+                    padding: 24px 0;
+                }
 
-                padding: 24px;
-            }
-            &Item:hover {
-                @include font(18px, 500, "Inter-Regular");
+                &Item {
+                    @include font(18px, 500, "Inter-Regular");
 
-                background-color: var(--Color__Main);
-                box-shadow: var(--Effect__MenuHighlight);
-            }
+                    padding: 24px;
+                }
+                &Item:hover {
+                    @include font(18px, 500, "Inter-Regular");
 
-            .btn{
-                @include displayFlex(center, center);
-                @include font(var(--SizeText__VerySmallSubtitle), 700, 'Montserrat-Bold');
-                padding: 8px 16px;
-                background: var(--Color__AccentGradient);
-                border-radius: 90px;
+                    background-color: var(--Color__Main);
+                    box-shadow: var(--Effect__MenuHighlight);
+                }
 
-                color: inherit;
+                .btn {
+                    @include displayFlex(center, center);
+                    @include font(
+                        var(--SizeText__VerySmallSubtitle),
+                        700,
+                        "Montserrat-Bold"
+                    );
+                    padding: 8px 16px;
+                    background: var(--Color__AccentGradient);
+                    border-radius: 90px;
+
+                    color: inherit;
+                }
             }
         }
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    .menu {
+        padding: 23px 0;
+
+        &List {
+            display: none;
+
+            &--modile {
+                @include displayFlex(center, flex-end);
+                position: relative;
+
+                &Nav {
+                    width: 320px;
+                    position: absolute;
+                    top: -23px;
+                    left: -15px;
+                    background-color: var(--Color__Main);
+                    padding: 12px 24px;
+                    // transform: translateX(-1000%);
+                    transition: transform 0.4s linear;
+                    z-index: 10000000;
+
+                    border-radius: 0 48px 48px 0;
+
+                    @include displayFlex(flex-start, center, column);
+                    gap: 32px;
+
+                    display: none;
+                }
+
+                &Items {
+                }
+
+                &Item {
+                    @include font(
+                        var(--SizeText__MediunSubtitle),
+                        400,
+                        "Inter-Regular"
+                    );
+                    color: var(--Color__White);
+                }
+            }
+        }
+    }
+
+    .btnHeaderModile {
+        margin: 0;
+    }
+
+    .burger {
+        display: block;
+        width: 24px;
+        height: 24px;
+        font-size: 0;
+
+        position: absolute;
+        left: 0;
+        z-index: 10000000000;
+
+        span {
+            top: 50%;
+            transform: translateY(-50%);
+            transition: opacity 0.2s linear;
+        }
+
+        &::before,
+        &::after,
+        & span {
+            display: block;
+            width: 100%;
+            height: 4px;
+            background-color: white;
+            position: absolute;
+            left: 0;
+        }
+
+        &::before {
+            top: 0;
+        }
+
+        &::after {
+            bottom: 0;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            transition: transform 0.2s linear;
+        }
+    }
+
+    .show-sidebar {
+        & .burger::before,
+        & .burger::after {
+            top: 50%;
+        }
+
+        .burger span {
+            opacity: 0;
+        }
+
+        .burger {
+            left: 240px;
+            top: 1px;
+        }
+
+        & .burger::before {
+            transform: rotate(45deg);
+        }
+
+        & .burger::before {
+            transform: rotate(45deg);
+        }
+
+        & .burger::after {
+            transform: rotate(-45deg);
+        }
+
+        & .menuList--modileNav {
+            @include displayFlex(flex-start, center, column);
+            // transform: translateX(-40px);
+        }
+    }
+
+    body.show-sidebar {
+        overflow: hidden;
+    }
+
+    .page__mask {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .mainTitle{
+        display: none;
     }
 }
