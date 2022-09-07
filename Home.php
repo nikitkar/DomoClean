@@ -299,8 +299,6 @@ Template Name: Home
                 </div>
             </div>
         </section>
-<<<<<<< HEAD
-=======
 
         <section class="feedback">
             <div class="conteiner">
@@ -442,7 +440,6 @@ Template Name: Home
             </div>
         </section>
 
->>>>>>> bec66e8786f50a300eed937fa4755138248e5e41
     </section>
 </main>
 
