@@ -1,12 +1,20 @@
 @import "style";
 
+@import 'CliningOffice';
+
 .mainWrapper {
+    
     &--inner {
         @include displayFlex(flex-start, center, column);
         gap: 32px;
     }
 
     .ourAbout {
+        &Inner{
+            padding: 0;
+            box-shadow: none;
+            background-color: var(--Color__BGGrey);
+        }
         background-color: var(--Color__White);
 
         border-radius: 48px;

@@ -48,7 +48,7 @@
                             <nav class="menu">
                                 <ul class="menuList">
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/abour">
+                                        <a class="menuItem" href="/about">
                                             О нас
                                         </a>
                                     </li>

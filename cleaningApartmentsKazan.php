@@ -7,10 +7,17 @@ Template Name: cleaningApartmentsKazan
 <?php get_header(); ?>
 
 <main class="main">
-    <section class="breack">
+    <section class="breadcrumbs--info">
         <div class="conteiner">
-            <div class="breackWraper">
-                хлебные крошки
+            <div class="breadcrumbsWrapper">
+                <div class="breadcrumbs">
+                    <a class="breadcrumbs--main" href="/">
+                        На главную</a>
+                    <span class="breadcrumbs--separator">/</span>
+                    <a class="breadcrumbs--child" href="/cleacning-apartments">
+                        Уборка квартир в Казани
+                    </a>
+                </div>
             </div>
         </div>
     </section>
