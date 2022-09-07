@@ -1,0 +1,424 @@
+@mixin displayFlex(
+    $alignItems: center,
+    $justifyContent: space-between,
+    $flexDirection: row
+) {
+    display: flex;
+    flex-direction: $flexDirection;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
+
+@mixin font(
+    $fontSize: 16px,
+    $fontWeight: 400,
+    $fontFamily: "Inter-Regular",
+    $lineHeight: normal
+) {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    font-weight: $fontWeight;
+}
+
+@mixin titleBlock() {
+    @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+    color: var(--Color__Main);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin backgroundImg(
+    $urlPath,
+    $size: cover,
+    $position: center,
+    $repeat: no-repeat
+) {
+    background: url($urlPath);
+    background-position: $position;
+    background-repeat: $repeat;
+    background-size: $size;
+}
+
+.main{
+
+    background-color: var(--Color__BGGrey);
+
+    .breadcrumbs{
+        &--info{
+            margin-top: 12px;
+            padding: 24px 0px;
+            background-color: var(--Color__BGGrey);
+        }
+        &--main{
+            text-decoration: underline;
+            color: var(--Color__Main);
+            @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
+        }
+        &--separator{
+            color: var(--Color__Main);
+            @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
+        }
+        &--child{
+            color: var(--Color__Main);
+            @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+        }
+    }
+
+    &Wrapper{
+
+        &--inner{
+            background-color: var(--Color__White);
+            border-radius: 48px;
+            box-shadow: var(--Effect__Wide);
+            padding: 48px 0px;
+        }
+
+        .CleaningAfterRenovation{
+            &--info{
+                padding: 0px 48px 24px;
+            }
+            
+            &--title{
+                text-align: center;
+                margin-bottom: 24px;
+                @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+                text-transform: uppercase;
+                color: var(--Color__Main);
+            }
+
+            &--text{
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+            }
+        }
+
+        .WhyCleaning{
+            &--info{
+                padding: 0px 48px 24px;
+            }
+
+            &--title{
+                text-align: center;
+                margin-bottom: 24px;
+                @include font(var(--SizeText__LargeSubtitle), 700, "MontserratAlternates-Bold");
+                color: var(--Color__Main);
+            }
+
+            &Img{
+                border-radius: 24px;
+                overflow: hidden;
+                margin-bottom: 24px;
+
+                &--img{
+                    width: 100%;
+                    height: 279px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+
+            &--text{
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                
+                &--bold{
+                    @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+                }
+            }
+
+        }
+
+        .StandardServicesC{
+            &Text{
+                padding: 0px 48px 24px;
+            }
+
+            &--title{
+                text-align: center;
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+                margin-bottom: 24px;
+                @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+                text-transform: uppercase;
+                color: var(--Color__Main);
+            }
+
+            &--text{
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+            }
+
+            &Block{
+
+                background-color: var(--Color__White);
+                padding: 0px 48px 24px;
+
+                &--info{
+                    @include displayFlex(flex-start, normal);
+                    flex-wrap: wrap;
+                    gap: 32px;
+                    
+                }
+
+                &--items {
+                    @include displayFlex(center, normal, column);
+
+                    background-color: var(--Color__BGGrey);
+                    border-radius: 48px;
+                    padding: 24px 24px 30px;
+                    max-width: 373px;
+                    width: 100%;
+                    height: 100%;
+                    min-height: 246px;
+                }
+
+                &--imgInner {
+                    @include displayFlex(center, center, column);
+    
+                    width: 87px;
+                    height: 74px;
+                }
+    
+                &--img {
+                    max-width: 87px;
+                    max-height: 80px;
+                }
+    
+                &--title {
+                    @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                    width: 100%;
+                    text-align: left;
+                    padding-top: 20px
+                }
+            }
+        }
+
+        .AfterRenivation{
+
+            &Text{
+                &--title{
+                    padding: 24px 0px;
+                    text-align: center;
+                    margin-bottom: 24px;
+                    @include font(var(--SizeText__LargeSubtitle), 700, "MontserratAlternates-Bold");
+                    color: var(--Color__Main);
+                }
+            }
+
+            &Table{
+
+                padding: 0px 48px 24px;
+                border-radius: 16px 0px 0px 0px;
+
+                &--table{
+                    border: 1px solid var(--Color__BGGrey);
+                    width: 100%;
+
+                    &--th{
+                        @include font(var(--SizeText__Regular), 700, "Inter-Bold");
+                        color: var(--Color__Main); 
+                        background-color: var(--Color__BGGrey);
+                        
+                        border: 1px solid var(--Color__BGGrey);
+                        vertical-align: middle;
+                        text-align: left;
+                        padding: 16px 0px 16px 15px;
+                        height: 54px;
+                        width: 395px;
+                    }
+
+                    &--items{
+                        @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                        border: 1px solid var(--Color__BGGrey);
+                        vertical-align: middle;
+                        text-align: left;
+                        padding: 16px 0px 16px 15px;
+                        height: 54px;
+                        width: 395px;
+                    }
+                }
+            }
+        }
+
+        .commentCustomers {
+            margin-bottom: 0px;
+            padding: 24px 48px;
+    
+            &Wrapper {
+                @include displayFlex(center, flex-start, column);
+    
+                gap: 32px;
+            }
+    
+            &Title {
+                @include titleBlock();
+            }
+    
+            &Content {
+                padding: 24px;
+                border-radius: 48px;
+                box-shadow: none;
+    
+                &--wrapper {
+                    @include displayFlex(flex-start, center, column);
+    
+                    gap: 15px;
+                }
+    
+                .comment {
+                    &ContentTitle {
+                        @include displayFlex(center, flex-start);
+    
+                        gap: 15px;
+                    }
+    
+                    &Title {
+                        &--img {
+                            max-width: 90px;
+                            max-height: 90px;
+    
+                            img {
+                                width: 89px;
+                                height: 89px;
+    
+                                border-radius: 50%;
+                            }
+                        }
+    
+                        &--personInfo {
+                            @include displayFlex(flex-start, center, column);
+    
+                            &Name {
+                                @include font(
+                                    var(--SizeText__MediunSubtitle),
+                                    700,
+                                    "MontserratAlternates-Bold"
+                                );
+                                color: var(--Color__Main);
+                                text-align: left;
+                                text-transform: unset;
+                            }
+    
+                            &WhatDoes {
+                                margin-bottom: 10px;
+                                @include font(
+                                    var(--SizeText__Regular),
+                                    400,
+                                    "Inter-Regular"
+                                );
+                            }
+    
+                            &Estimation {
+                                @include displayFlex(center, center);
+    
+                                gap: 5px;
+                            }
+                        }
+                    }
+
+                    &ContentText--text{
+                        @include font(
+                                var(--SizeText__Regular),
+                                400,
+                                "Inter-Regular"
+                            );
+                    }
+                }
+            }
+
+            .personInfoEstimation--Estimation{
+                @include font(
+                    var(--SizeText__Regular),
+                    400,
+                    "Inter-Regular"
+                );
+            }
+        }
+    
+        .questions {
+            margin-bottom: 0px;
+            padding: 24px 48px;
+            &Wrapper {
+                @include displayFlex(center, center, column);
+    
+                gap: 32px;
+            }
+    
+            &Title {
+                @include titleBlock();
+            }
+    
+            &List {
+                @include displayFlex(center, center, column);
+    
+                gap: 32px;
+    
+                width: 100%;
+            }
+    
+            &Items {
+                @include displayFlex(center, flex-start, column);
+    
+                width: 100%;
+    
+                .item {
+                    &Btn {
+                        width: 100%;
+                        padding: 18.5px 24px;
+                        background-color: var(--Color__BGGrey);
+    
+                        @include font(
+                            var(--SizeText__MediunSubtitle),
+                            700,
+                            "MontserratAlternates-Bold"
+                        );
+                        color: var(--Color__Main);
+                        cursor: pointer;
+                        text-align: left;
+    
+                        border-radius: 24px;
+                    }
+    
+                    &Btn:after {
+                        content: "";
+                        @include backgroundImg(
+                            "../images/questionDecor/decor.svg",
+                            contain
+                        );
+                        float: right;
+                        width: 20px;
+                        height: 20px;
+    
+                        transition: 0.4s;
+                    }
+    
+                    &Inner {
+                        max-height: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        @include font(
+                            var(--SizeText__VerySmallSubtitle),
+                            400,
+                            "Inter-Regular"
+                        );
+                        transition: all 0.2s ease-out;
+                    }
+                }
+    
+                .active::after {
+                    content: "";
+                    @include backgroundImg(
+                        "../images/questionDecor/decorReverse.svg",
+                        contain
+                    );
+                    float: right;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        
+        
+
+    }
+}
