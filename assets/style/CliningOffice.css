@@ -1,0 +1,375 @@
+.main {
+  background-color: var(--Color__BGGrey);
+}
+.main .breadcrumbs--info {
+  margin-top: 12px;
+  padding: 24px 0px;
+  background-color: var(--Color__BGGrey);
+}
+.main .breadcrumbs--main {
+  text-decoration: underline;
+  color: var(--Color__Main);
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__LinkBlue);
+  line-height: normal;
+  font-weight: 400;
+}
+.main .breadcrumbs--separator {
+  color: var(--Color__Main);
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__LinkBlue);
+  line-height: normal;
+  font-weight: 400;
+}
+.main .breadcrumbs--child {
+  color: var(--Color__Main);
+  font-family: "Inter-Bold";
+  font-size: var(--SizeText__Bold);
+  line-height: normal;
+  font-weight: 700;
+}
+.mainWrapper--inner {
+  background-color: var(--Color__White);
+  border-radius: 48px;
+  box-shadow: var(--Effect__Wide);
+  padding: 48px 0px;
+}
+.mainWrapper .CleaningAfterRenovation--info {
+  padding: 0px 48px 24px;
+}
+.mainWrapper .CleaningAfterRenovation--title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--Color__Main);
+}
+.mainWrapper .CleaningAfterRenovation--text {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.mainWrapper .WhyCleaning--info {
+  padding: 0px 48px 24px;
+}
+.mainWrapper .WhyCleaning--title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__LargeSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+}
+.mainWrapper .WhyCleaningImg {
+  border-radius: 48px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.mainWrapper .WhyCleaningImg--img {
+  width: 100%;
+  height: 279px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainWrapper .WhyCleaning--text {
+  font-family: "Inter-Bold";
+  font-size: var(--SizeText__Bold);
+  line-height: normal;
+  font-weight: 700;
+}
+.mainWrapper .StandardServicesText {
+  padding: 0px 48px 24px;
+}
+.mainWrapper .StandardServices--title {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--Color__Main);
+}
+.mainWrapper .StandardServices--text {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.mainWrapper .StandardServicesBlock {
+  background-color: var(--Color__White);
+  padding: 0px 48px 24px;
+}
+.mainWrapper .StandardServicesBlock--info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: normal;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.mainWrapper .StandardServicesBlock--items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: normal;
+  background-color: var(--Color__BGGrey);
+  border-radius: 48px;
+  padding: 24px 24px 30px;
+  max-width: 373px;
+  height: 100%;
+  min-height: 645px;
+}
+.mainWrapper .StandardServicesBlock--items--small {
+  min-height: 430px;
+}
+.mainWrapper .StandardServicesBlock--imgInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 87px;
+  height: 74px;
+}
+.mainWrapper .StandardServicesBlock--img {
+  max-width: 87px;
+  max-height: 80px;
+}
+.mainWrapper .StandardServicesBlock--title {
+  font-family: "Montserrat-Bold";
+  font-size: var(--SizeText__VerySmallSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+.mainWrapper .StandardServicesBlock--text {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.mainWrapper .AfterRenivationText--title {
+  padding: 24px 0px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__LargeSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+}
+.mainWrapper .AfterRenivationTable {
+  padding: 0px 48px 24px;
+  border-radius: 16px 0px 0px 0px;
+}
+.mainWrapper .AfterRenivationTable--table {
+  border: 1px solid var(--Color__BGGrey);
+  width: 100%;
+}
+.mainWrapper .AfterRenivationTable--table--th {
+  font-family: "Inter-Bold";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+  background-color: var(--Color__BGGrey);
+  border: 1px solid var(--Color__BGGrey);
+  vertical-align: middle;
+  text-align: left;
+  padding: 16px 0px 16px 15px;
+  height: 54px;
+  width: 395px;
+}
+.mainWrapper .AfterRenivationTable--table--items {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+  border: 1px solid var(--Color__BGGrey);
+  vertical-align: middle;
+  text-align: left;
+  padding: 16px 0px 16px 15px;
+  height: 54px;
+  width: 395px;
+}
+.mainWrapper .commentCustomers {
+  margin-bottom: 48px;
+  padding: 24px 48px;
+}
+.mainWrapper .commentCustomersWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.mainWrapper .commentCustomersTitle {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+  text-align: center;
+  text-transform: uppercase;
+}
+.mainWrapper .commentCustomersContent {
+  padding: 24px;
+  border-radius: 48px;
+  box-shadow: none;
+}
+.mainWrapper .commentCustomersContent--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+}
+.mainWrapper .commentCustomersContent .commentContentTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.mainWrapper .commentCustomersContent .commentTitle--img {
+  max-width: 90px;
+  max-height: 90px;
+}
+.mainWrapper .commentCustomersContent .commentTitle--img img {
+  width: 89px;
+  height: 89px;
+  border-radius: 50%;
+}
+.mainWrapper .commentCustomersContent .commentTitle--personInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.mainWrapper .commentCustomersContent .commentTitle--personInfoName {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__MediunSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+  text-align: left;
+  text-transform: unset;
+}
+.mainWrapper .commentCustomersContent .commentTitle--personInfoWhatDoes {
+  margin-bottom: 10px;
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.mainWrapper .commentCustomersContent .commentTitle--personInfoEstimation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.mainWrapper .commentCustomersContent .commentContentText--text {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.mainWrapper .commentCustomers .personInfoEstimation--Estimation {
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__Regular);
+  line-height: normal;
+  font-weight: 400;
+}
+.mainWrapper .questions {
+  margin-bottom: 0px;
+  padding: 24px 48px;
+}
+.mainWrapper .questionsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.mainWrapper .questionsTitle {
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__Title);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+  text-align: center;
+  text-transform: uppercase;
+}
+.mainWrapper .questionsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+}
+.mainWrapper .questionsItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.mainWrapper .questionsItems .itemBtn {
+  width: 100%;
+  padding: 18.5px 24px;
+  background-color: var(--Color__BGGrey);
+  font-family: "MontserratAlternates-Bold";
+  font-size: var(--SizeText__MediunSubtitle);
+  line-height: normal;
+  font-weight: 700;
+  color: var(--Color__Main);
+  cursor: pointer;
+  text-align: left;
+  border-radius: 24px;
+}
+.mainWrapper .questionsItems .itemBtn:after {
+  content: "";
+  background: url("../images/questionDecor/decor.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  width: 20px;
+  height: 20px;
+  transition: 0.4s;
+}
+.mainWrapper .questionsItems .itemInner {
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Inter-Regular";
+  font-size: var(--SizeText__VerySmallSubtitle);
+  line-height: normal;
+  font-weight: 400;
+  transition: all 0.2s ease-out;
+}
+.mainWrapper .questionsItems .active::after {
+  content: "";
+  background: url("../images/questionDecor/decorReverse.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=CliningOffice.css.map */
