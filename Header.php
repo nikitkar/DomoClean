@@ -48,32 +48,32 @@
                             <nav class="menu">
                                 <ul class="menuList">
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/about">
+                                        <a class="menuItem" href="">
                                             О нас
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/services">
+                                        <a class="menuItem" href="">
                                             Услуги
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/price">
+                                        <a class="menuItem" href="">
                                             Прайс
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/photo-gallery">
+                                        <a class="menuItem" href="">
                                             Фотогалерея
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/reviews">
+                                        <a class="menuItem" href="">
                                             Отзывы
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/questionsand-answers">
+                                        <a class="menuItem" href="">
                                             Вопросы и ответы
                                         </a>
                                     </li>
@@ -83,7 +83,7 @@
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/contacts">
+                                        <a class="menuItem" href="">
                                             Контакты
                                         </a>
                                     </li>
@@ -96,22 +96,22 @@
                                     </button>
                                     <ul class="menuList--modileNav" id="sidebar">
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/about">
+                                            <a class="menuList--modileItem" href="">
                                                 О нас
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/services">
+                                            <a class="menuList--modileItem" href="">
                                                 Услуги
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/price">
+                                            <a class="menuList--modileItem" href="">
                                                 Прайс
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/photo-gallery">
+                                            <a class="menuList--modileItem" href="">
                                                 Фотогалерея
                                             </a>
                                         </li>
@@ -121,17 +121,17 @@
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/questionsand-answers">
+                                            <a class="menuList--modileItem" href="">
                                                 Вопросы и ответы
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/">
+                                            <a class="menuList--modileItem" href="">
                                                 Статьи
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/contacts">
+                                            <a class="menuList--modileItem" href="">
                                                 Контакты
                                             </a>
                                         </li>

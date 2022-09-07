@@ -1,4 +1,4 @@
-/*$(function () {
+$(function () {
     $(".sliderInner").slick({
         dots: true,
         infinite: false,
@@ -25,13 +25,8 @@ $(function () {
         ]
     });
 });
-<<<<<<< HEAD
 
 let questionsBlockHomePage = document.getElementsByClassName("itemBtn");
-=======
-*/
-let acc = document.getElementsByClassName("itemBtn");
->>>>>>> 95f9d8a4c0f8bbb493f7f76a939919d9f048deaa
 
 for (let i = 0; i < questionsBlockHomePage.length; i++) {
     questionsBlockHomePage[i].addEventListener("click", function () {
@@ -41,11 +36,10 @@ for (let i = 0; i < questionsBlockHomePage.length; i++) {
             panel.style.maxHeight = null;
             panel.style = "padding: 0;";
         } else {
-            panel.style = "padding: 25px;";
+            panel.style = "padding: 20px;";
             panel.style.maxHeight = panel.scrollHeight + "px";
         }
     });
-<<<<<<< HEAD
 }
 
 const burger = document.getElementById('navToggle');
@@ -79,6 +73,4 @@ function closeSidebar() {
 
 for(let elem of element){
     elem.addEventListener('click', closeSidebar);
-=======
->>>>>>> 95f9d8a4c0f8bbb493f7f76a939919d9f048deaa
 }

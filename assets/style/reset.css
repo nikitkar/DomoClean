@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Inter/Inter-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratAlternates-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MontserratAlternates/MontserratAlternates-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MontserratAlternates-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MontserratAlternates/MontserratAlternates-Bold.ttf") format("truetype");
+}
 *,
 *::after,
 *::before {
@@ -363,36 +393,6 @@ body {
   color: var(--Color__White);
 }
 
-@font-face {
-  font-family: "Inter-Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Inter-Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Inter/Inter-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Montserrat-Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MontserratAlternates-Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/MontserratAlternates/MontserratAlternates-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MontserratAlternates-Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/MontserratAlternates/MontserratAlternates-Bold.ttf") format("truetype");
-}
 :root {
   /* Text Styles */
   --SizeText__HiroHeader: 48px;
