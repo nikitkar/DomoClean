@@ -20,9 +20,9 @@
                             <li class="footerItems">
                                 <h4 class="footerItem--title">Основные услуги</h4>
                                 <a class="footerItem" href="cleacning-apartments">Уборка квартиры</a>
-                                <a class="footerItem" href="">Генеральная уборка</a>
+                                <a class="footerItem" href="/">Генеральная уборка</a>
                                 <a class="footerItem" href="/cottage-cleaning">Уборка коттеджа</a>
-                                <a class="footerItem" href="">Уборка офиса</a>
+                                <a class="footerItem" href="/">Уборка офиса</a>
                                 <a class="footerItem" href="/cleaning-after-repair">Уборка после ремонта</a>
                             </li>
                             <li class="footerItems">
@@ -101,9 +101,9 @@
                     </div>
                 </div>
             </footer>
-        </div>
-    </body>
+            </div>
+            </body>
 
-        <?php wp_footer(); ?>
+            <?php wp_footer(); ?>
 
-        </html>
+            </html>

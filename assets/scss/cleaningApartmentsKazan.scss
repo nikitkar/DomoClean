@@ -9,7 +9,8 @@
     }
 }
 .cleaningApartments {
-    padding: 48px;
+    padding: 0 48px;
+    width: 100%;
 
     &--wrapper {
         @include displayFlex(flex-start, center, column);
@@ -28,7 +29,7 @@
 
         @include font(var(--SizeText__Regular), 400, "Inter-Regular");
 
-        span{
+        span {
             font-weight: 700;
         }
     }
@@ -69,16 +70,20 @@
         }
     }
 
-    &--innerImg{
+    &--innerImg {
         max-width: 502px;
         max-height: 293px;
 
-        width: 100%;
+        width: 60%;
+
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+
         height: 100%;
         position: relative;
 
-
-        &::after{
+        &::after {
             counter-increment: countItems;
             content: "" counter(countItems);
             padding: 18px 33px;
@@ -106,6 +111,12 @@
         @include displayFlex(flex-start, center, column);
         gap: 13px;
 
+        width: 60%;
+
+        @media screen and (max-width: 1000px) {
+            width: 100%;
+        }
+
         &--title {
             @include font(
                 var(--SizeText__MediunSubtitle),
@@ -127,6 +138,208 @@
             & > p {
                 @include font(var(--SizeText__Regular), 400, "Inter-Regular");
             }
+        }
+    }
+
+    .typeCleaning {
+        @include displayFlex(center, center, column);
+        gap: 24px;
+
+        width: 100%;
+
+        &Title {
+            @include font(
+                var(--SizeText__LargeSubtitle),
+                700,
+                "MontserratAlternates-Bold"
+            );
+
+            color: var(--Color__Main);
+        }
+
+        &List {
+            @include displayFlex(center, space-between);
+            flex-wrap: wrap;
+            row-gap: 32px;
+            width: 100%;
+        }
+
+        &Item {
+            &s {
+                background-color: var(--Color__BGGrey);
+                border-radius: 48px;
+                min-height: 450px;
+                max-width: 375px;
+                width: 100%;
+                height: 100%;
+
+                padding: 24px;
+
+                @include displayFlex(center, flex-start, column);
+                gap: 10px;
+            }
+
+            &Img {
+                width: 74px;
+                &--inner {
+                    @include displayFlex(center, center, column);
+                    @include backgroundImg(
+                        "../images/frequentlyUsedIcons/decor/Img6.png",
+                        contain,
+                        center,
+                        no-repeat
+                    );
+
+                    width: 105px;
+                    height: 92px;
+                }
+            }
+
+            &Title {
+                @include font(
+                    var(--SizeText__VerySmallSubtitle),
+                    400,
+                    "Montserrat-Bold"
+                );
+                color: #333333;
+
+                word-break: break-all;
+            }
+
+            &Text {
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                color: #333333;
+                word-break: break-word;
+            }
+        }
+    }
+
+    .priceClining {
+        @include displayFlex(flex-start, center, column);
+        gap: 24px;
+
+        width: 100%;
+
+        &Title {
+            @include font(
+                var(--SizeText__LargeSubtitle),
+                700,
+                "MontserratAlternates-Bold"
+            );
+
+            color: var(--Color__Main);
+            width: 100%;
+            text-align: center;
+        }
+
+        &Text {
+            @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+            color: #333333;
+            width: 100%;
+        }
+    }
+
+    .cleaningNecessity {
+        @include displayFlex(flex-start, center, column);
+        gap: 24px;
+        width: 100%;
+
+        &Title {
+            @include titleBlock();
+
+            text-align: center;
+            word-break: break-word;
+            width: 100%;
+        }
+
+        &List {
+            @include displayFlex(flex-start, space-between);
+
+            flex-wrap: wrap;
+            row-gap: 32px;
+            width: 100%;
+        }
+
+        &Item {
+            &s {
+                max-width: 380px;
+                width: 100%;
+                height: 100%;
+
+                padding: 24px;
+
+                @include displayFlex(flex-start, center, column);
+                gap: 10px;
+            }
+
+            &Img {
+                width: 100%;
+                border-radius: 48px;
+            }
+
+            &Title {
+                @include font(
+                    var(--SizeText__VerySmallSubtitle),
+                    400,
+                    "Montserrat-Bold"
+                );
+                color: #333333;
+
+                word-break: break-all;
+            }
+
+            &Text {
+                @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                color: #333333;
+                word-break: break-word;
+            }
+        }
+    }
+
+    .blockInfo {
+        @include displayFlex(center, space-between);
+        flex-wrap: wrap;
+
+        background-color: var(--Color__BGGrey);
+        width: 100%;
+        border-radius: 48px;
+
+        padding: 48px;
+
+        &--wrapperImg {
+            width: auto;
+            height: 100%;
+
+            & > img{
+                width: 100%;
+            }
+        }
+
+        &--content {
+            @include displayFlex(flex-start, center, column);
+            gap: 13px;
+
+            @media screen and (max-width: 1240px) {
+                width: 100%;
+            }
+            width: 70%;
+        }
+
+        &--title {
+            @include font(
+                var(--SizeText__VerySmallSubtitle),
+                400,
+                "Montserrat-Bold"
+            );
+            color: #333333;
+
+            word-break: break-all;
+        }
+
+        &--text {
+            @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+            color: #333333;
+            word-break: break-word;
         }
     }
 }

@@ -14,8 +14,8 @@ Template Name: CliningOffice
                     <a class="breadcrumbs--main" href="/">
                         На главную</a>
                     <span class="breadcrumbs--separator">/</span>
-                    <a class="breadcrumbs--child" href="/cliningoffice">
-                        Клининг офисов
+                    <a class="breadcrumbs--child" href="/cleaning-after-repair">
+                        Уборка после ремонта
                     </a>
                 </div>
             </div>
