@@ -15,6 +15,7 @@ add_action('wp_enqueue_scripts', function(){
     wp_enqueue_style('cottageСleaning', get_template_directory_uri() . '/assets/style/CottageClining.css');
     wp_enqueue_style('maintenanceCleaning', get_template_directory_uri() . '/assets/style/MaintenanceCleaning.css');
     wp_enqueue_style('GeneralCleaningKazan', get_template_directory_uri() . '/assets/style/GeneralCleaningKazan.css');
+    wp_enqueue_style('WashingWindowsLoggiasKazan', get_template_directory_uri() . '/assets/style/WashingWindowsLoggiasKazan.css');
 
 
 

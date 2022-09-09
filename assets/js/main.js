@@ -32,12 +32,14 @@ for (let i = 0; i < questionsBlockHomePage.length; i++) {
     questionsBlockHomePage[i].addEventListener("click", function () {
         this.classList.toggle("active");
         let panel = this.nextElementSibling;
+        let panel1 = panel.firstChild;
+        console.log(panel.clientHeight)
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
-            panel.style = "padding: 0;";
+            panel.style = "padding: 0; width: 100%";
         } else {
-            panel.style = "padding: 20px;";
-            panel.style.maxHeight = panel.scrollHeight + "px";
+            panel.style = "padding: 20px; max-height: 100%; width: 100%";
+
         }
     });
 }
