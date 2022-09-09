@@ -34,6 +34,7 @@
                     "MontserratAlternates-Bold"
                 );
 
+                text-align: center;
                 color: var(--Color__Main);
             }
 
@@ -244,6 +245,7 @@
         @include titleBlock();
 
         width: 100%;
+        word-wrap: break-word;
     }
 
     &--text {
@@ -260,13 +262,15 @@
         @include displayFlex(center, center, column);
         gap: 24px;
 
+        width: 100%;
+
         &Title {
             @include font(
                 var(--SizeText__LargeSubtitle),
                 700,
                 "MontserratAlternates-Bold"
             );
-
+            text-align: center;
             color: var(--Color__Main);
         }
     }
