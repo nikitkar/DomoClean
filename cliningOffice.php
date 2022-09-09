@@ -49,8 +49,7 @@ Template Name: CliningOffice
                         <h2 class="WhyCleaning--title">
                             Почему уборка после ремонта так сложна?
                         </h2>
-                        <div class="WhyCleaningImg">
-                            <img class="WhyCleaningImg--img" src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/backGround.png" alt="WhyCleaningImg">
+                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/backGround.png); background-position: center;">
                         </div>
                         <p class="WhyCleaning--text">
                             Потому что возникают сложно поддающиеся выведению загрязнения. Примеры уже были представлены. С помощью обыкновенной генеральной уборки справиться с ними объективно невозможно.

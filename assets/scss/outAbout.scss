@@ -1,16 +1,15 @@
 @import "style";
 
-@import 'CliningOffice';
+@import "CliningOffice";
 
 .mainWrapper {
-    
     &--inner {
         @include displayFlex(flex-start, center, column);
         gap: 32px;
     }
 
     .ourAbout {
-        &Inner{
+        &Inner {
             padding: 0;
             box-shadow: none;
             background-color: var(--Color__BGGrey);
@@ -19,6 +18,11 @@
 
         border-radius: 48px;
         padding: 48px;
+
+        @media screen and (max-width: 800px) {
+            padding: 24px;
+        }
+
         box-shadow: var(--Effect__Wide);
     }
 

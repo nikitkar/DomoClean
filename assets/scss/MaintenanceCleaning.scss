@@ -40,88 +40,101 @@
     background-size: $size;
 }
 
-.main{
-
+.main {
     background-color: var(--Color__BGGrey);
 
-    .breadcrumbs{
-        &--info{
+    .breadcrumbs {
+        &--info {
             margin-top: 12px;
             padding: 24px 0px;
             background-color: var(--Color__BGGrey);
         }
-        &--main{
+        &--main {
             text-decoration: underline;
             color: var(--Color__Main);
             @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
         }
-        &--separator{
+        &--separator {
             color: var(--Color__Main);
             @include font(var(--SizeText__LinkBlue), 400, "Inter-Regular");
         }
-        &--child{
+        &--child {
             color: var(--Color__Main);
             @include font(var(--SizeText__Bold), 700, "Inter-Bold");
         }
     }
 
-    &Wrapper{
-
-        &--inner{
+    &Wrapper {
+        &--inner {
             background-color: var(--Color__White);
             border-radius: 48px;
             box-shadow: var(--Effect__Wide);
             padding: 48px 0px;
         }
 
-        .CleaningAfterRenovation{
-            &--info{
+        .CleaningAfterRenovation {
+            &--info {
                 padding: 0px 48px 24px;
             }
-            
-            &--title{
+
+            &--title {
                 text-align: center;
                 margin-bottom: 24px;
-                @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+                @include font(
+                    var(--SizeText__Title),
+                    700,
+                    "MontserratAlternates-Bold"
+                );
                 text-transform: uppercase;
                 color: var(--Color__Main);
             }
 
-            &--text{
+            &--text {
                 @include font(var(--SizeText__Regular), 400, "Inter-Regular");
             }
         }
 
-        .StandardServicesM{
-            &Text{
-                padding: 0px 48px 24px;
+        .StandardServicesM {
+            width: 100%;
+            &Text {
+                padding: 0px 48px;
+
+                @media screen and (max-width: 800px) {
+                    padding: 24px;
+                }
             }
 
-            &--title{
+            &--title {
                 text-align: center;
                 width: 100%;
                 max-width: 800px;
                 margin: 0 auto;
                 margin-bottom: 24px;
-                @include font(var(--SizeText__Title), 700, "MontserratAlternates-Bold");
+                @include font(
+                    var(--SizeText__Title),
+                    700,
+                    "MontserratAlternates-Bold"
+                );
                 text-transform: uppercase;
                 color: var(--Color__Main);
             }
 
-            &--text{
+            &--text {
                 @include font(var(--SizeText__Regular), 400, "Inter-Regular");
             }
 
-            &Block{
-
+            &Block {
                 background-color: var(--Color__White);
-                padding: 0px 48px 24px;
+                padding: 0px 48px;
 
-                &--info{
+                @media screen and (max-width: 800px) {
+                    padding: 24px;
+                }
+
+                &--info {
                     @include displayFlex(flex-start, normal);
                     flex-wrap: wrap;
-                    gap: 32px;
-                    
+                    gap: 10px 32px;
                 }
 
                 &--items {
@@ -132,63 +145,77 @@
                     padding: 24px 24px 23px;
                     max-width: 576px;
                     height: 100%;
-                    max-height: 378px;
+                    width: 100%;
                 }
 
                 &--imgInner {
                     @include displayFlex(center, center, column);
-    
+
                     width: 87px;
                     height: 74px;
                 }
-    
+
                 &--img {
                     max-width: 87px;
                     max-height: 80px;
                 }
-    
+
                 &--title {
                     @include font(var(--SizeText__Regular), 700, "Inter-Bold");
                     text-align: left;
-                    padding-top: 20px
+                    padding-top: 20px;
                 }
-    
+
                 &--ul {
                     padding-left: 24px;
-                    @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                    @include font(
+                        var(--SizeText__Regular),
+                        400,
+                        "Inter-Regular"
+                    );
                     list-style-type: disc;
                 }
             }
         }
 
-        .AfterRenivation{
-            @include displayFlex(flex-start, center, column);
-            &Text{
-                width: 100%;
-
-                &--title{
-                    padding: 24px 0px;
+        .AfterRenivation {
+            @include displayFlex(center, center, column);
+            gap: 30px;
+            width: 100%;
+            &Text {
+                &--title {
+                    padding: 0px 24px;
                     text-align: center;
                     margin-bottom: 24px;
-                    @include font(var(--SizeText__LargeSubtitle), 700, "MontserratAlternates-Bold");
+                    @include font(
+                        var(--SizeText__LargeSubtitle),
+                        700,
+                        "MontserratAlternates-Bold"
+                    );
                     color: var(--Color__Main);
+
+                    word-break: break-all;
                 }
             }
 
-            &Table{
-
-                padding: 0px 0 24px;
+            &Table {
+                overflow-wrap: anywhere;
+                padding: 0px !important;
                 border-radius: 16px 0px 0px 0px;
 
-                &--table{
+                &--table {
                     border: 1px solid var(--Color__BGGrey);
                     width: 100%;
 
-                    &--th{
-                        @include font(var(--SizeText__Regular), 700, "Inter-Bold");
-                        color: var(--Color__Main); 
+                    &--th {
+                        @include font(
+                            var(--SizeText__Regular),
+                            700,
+                            "Inter-Bold"
+                        );
+                        color: var(--Color__Main);
                         background-color: var(--Color__BGGrey);
-                        
+
                         border: 1px solid var(--Color__BGGrey);
                         vertical-align: middle;
                         text-align: left;
@@ -197,8 +224,12 @@
                         width: 395px;
                     }
 
-                    &--items{
-                        @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+                    &--items {
+                        @include font(
+                            var(--SizeText__Regular),
+                            400,
+                            "Inter-Regular"
+                        );
                         border: 1px solid var(--Color__BGGrey);
                         vertical-align: middle;
                         text-align: left;
@@ -209,39 +240,39 @@
                 }
             }
         }
-    
+
         .questions {
             margin-bottom: 0px;
-            padding: 24px 48px 0px;
+            padding: 24px 24px 0px;
             &Wrapper {
                 @include displayFlex(center, center, column);
-    
+
                 gap: 32px;
             }
-    
+
             &Title {
                 @include titleBlock();
             }
-    
+
             &List {
                 @include displayFlex(center, center, column);
-    
+
                 gap: 32px;
-    
+
                 width: 100%;
             }
-    
+
             &Items {
                 @include displayFlex(center, flex-start, column);
-    
+
                 width: 100%;
-    
+
                 .item {
                     &Btn {
                         width: 100%;
                         padding: 18.5px 24px;
                         background-color: var(--Color__BGGrey);
-    
+
                         @include font(
                             var(--SizeText__MediunSubtitle),
                             700,
@@ -250,10 +281,11 @@
                         color: var(--Color__Main);
                         cursor: pointer;
                         text-align: left;
-    
+
                         border-radius: 24px;
+                        word-break: break-word;
                     }
-    
+
                     &Btn:after {
                         content: "";
                         @include backgroundImg(
@@ -263,10 +295,10 @@
                         float: right;
                         width: 20px;
                         height: 20px;
-    
+
                         transition: 0.4s;
                     }
-    
+
                     &Inner {
                         max-height: 0;
                         width: 100%;
@@ -279,7 +311,7 @@
                         transition: all 0.2s ease-out;
                     }
                 }
-    
+
                 .active::after {
                     content: "";
                     @include backgroundImg(
@@ -292,8 +324,5 @@
                 }
             }
         }
-        
-        
-
     }
 }

@@ -275,7 +275,7 @@ Template Name: cleaningApartmentsKazan
                                 </h2>
                             </div>
                             <div class="AfterRenivationTable">
-                                <table class="AfterRenivationTable--table">
+                                <table class="AfterRenivationTable--table" style="overflow-wrap: anywhere;">
                                     <tr class="AfterRenivationTable--table--str">
                                         <td class="AfterRenivationTable--table--th">Виды уборок:</td>
                                         <td class="AfterRenivationTable--table--th">Ед.измерения</td>
@@ -358,103 +358,99 @@ Template Name: cleaningApartmentsKazan
                         </section>
 
                         <section class="commentCustomers">
-                            <div class="conteiner">
-                                <div class="commentCustomersWrapper">
-                                    <h2 class="commentCustomersTitle">Отзывы наших клиентов</h2>
+                            <div class="commentCustomersWrapper">
+                                <h2 class="commentCustomersTitle">Отзывы наших клиентов</h2>
 
-                                    <div class="commentCustomersContent">
-                                        <div class="commentCustomersContent--wrapper">
-                                            <div class="commentContentTitle">
-                                                <div class="commentTitle--img">
-                                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.jpg" alt="commentTitleAvatar">
-                                                </div>
-                                                <div class="commentTitle--personInfo">
-                                                    <p class="commentTitle--personInfoName">Ахметова Ф.Р.</p>
-                                                    <span class="commentTitle--personInfoWhatDoes">Врач аллерголог</span>
-                                                    <div class="commentTitle--personInfoEstimation">
-                                                        <div class="personInfoEstimationStar">
-                                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
-                                                                </svg>
-                                                            </span>
-                                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
-                                                                </svg>
-                                                            </span>
-                                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
-                                                                </svg>
-                                                            </span>
-                                                            <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
-                                                                </svg>
-                                                            </span>
-                                                            <span class="star starInactive">
-                                                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                    <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__FontGrayInactive)" stroke="var(--Color__FontGrayInactive)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
-                                                                </svg>
-                                                            </span>
-                                                        </div>
-                                                        <span class="personInfoEstimation--Estimation">4,9</span>
-                                                    </div>
-                                                </div>
+                                <div class="commentCustomersContent" style="padding: 0">
+                                    <div class="commentCustomersContent--wrapper">
+                                        <div class="commentContentTitle">
+                                            <div class="commentTitle--img">
+                                                <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.jpg" alt="commentTitleAvatar">
                                             </div>
-                                            <div class="commentContentText">
-                                                <p class="commentContentText--text">
-                                                    Вне зависимости от того, где вы живете – в коттедже за пределами города или в квартире, я рекомендую, будучи доктором (аллерголог, стаж – 10 лет), с наступлением весны проводить генеральную уборку. Клининг в это время необходим по объективной причине. За зиму, когда проветривание дома или квартиры ограничено, в комнатах скапливаются пыль и грязь, особенно в труднодоступных местах. Появляются аллергены и благоприятные для размножения нежелательных микроорганизмов условия.
-                                                    Нужна тщательная уборка после зимы и аллергикам, и людям, проживающим с детьми. Генеральная предполагает ряд мероприятий. Это влажная уборка и сухая. Нужно «генералить» чаще, но смена сезонов – повод, чтобы задуматься о наведении чистоты. Это в первую очередь забота о собственном здоровье.
-                                                    Когда времени не остается, мы с семьей привлекаем клинеров.
-                                                    Ничего плохого сказать о компании не могу. В Казани давно, пользуемся клининговыми услугами регулярно. Сотрудники фирмы всегда делают работу качественно. </p>
+                                            <div class="commentTitle--personInfo">
+                                                <p class="commentTitle--personInfoName">Ахметова Ф.Р.</p>
+                                                <span class="commentTitle--personInfoWhatDoes">Врач аллерголог</span>
+                                                <div class="commentTitle--personInfoEstimation">
+                                                    <div class="personInfoEstimationStar">
+                                                        <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__Start)" stroke="var(--Color__Start)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </span>
+                                                        <span class="star starInactive">
+                                                            <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M7.64931 1.16724L9.619 5.15762L14.0237 5.80143L10.8365 8.90577L11.5887 13.2914L7.64931 11.2197L3.70993 13.2914L4.46211 8.90577L1.2749 5.80143L5.67962 5.15762L7.64931 1.16724Z" fill="var(--Color__FontGrayInactive)" stroke="var(--Color__FontGrayInactive)" stroke-width="1.27488" stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                    <span class="personInfoEstimation--Estimation">4,9</span>
+                                                </div>
                                             </div>
                                         </div>
+                                        <div class="commentContentText">
+                                            <p class="commentContentText--text">
+                                                Вне зависимости от того, где вы живете – в коттедже за пределами города или в квартире, я рекомендую, будучи доктором (аллерголог, стаж – 10 лет), с наступлением весны проводить генеральную уборку. Клининг в это время необходим по объективной причине. За зиму, когда проветривание дома или квартиры ограничено, в комнатах скапливаются пыль и грязь, особенно в труднодоступных местах. Появляются аллергены и благоприятные для размножения нежелательных микроорганизмов условия.
+                                                Нужна тщательная уборка после зимы и аллергикам, и людям, проживающим с детьми. Генеральная предполагает ряд мероприятий. Это влажная уборка и сухая. Нужно «генералить» чаще, но смена сезонов – повод, чтобы задуматься о наведении чистоты. Это в первую очередь забота о собственном здоровье.
+                                                Когда времени не остается, мы с семьей привлекаем клинеров.
+                                                Ничего плохого сказать о компании не могу. В Казани давно, пользуемся клининговыми услугами регулярно. Сотрудники фирмы всегда делают работу качественно. </p>
+                                        </div>
                                     </div>
-
-                                    <a class="commentCustomersBtn  buttonStandart" href="javascript:void(0);">Перейти к отзывам</a>
                                 </div>
+
+                                <a class="commentCustomersBtn  buttonStandart" href="javascript:void(0);">Перейти к отзывам</a>
                             </div>
                         </section>
 
                         <section class="questions">
-                            <div class="conteiner">
-                                <div class="questionsWrapper">
-                                    <h2 class="questionsTitle">Вопросы и ответы</h2>
+                            <div class="questionsWrapper">
+                                <h2 class="questionsTitle">Вопросы и ответы</h2>
 
-                                    <ul class="questionsList">
-                                        <li class="questionsItems">
-                                            <button class="itemBtn">Сколько в среднем занимает уборка?</button>
-                                            <div class="itemInner">
-                                                <p>В среднем клининг занимает от 2-8 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений и особенностями заказанной услуги</p>
-                                            </div>
-                                        </li>
-                                        <li class="questionsItems">
-                                            <button class="itemBtn">Как оплатить клининг?</button>
-                                            <div class="itemInner">
-                                                <p>Оплата осуществляется после принятия работ. Способ выбирает клиент. Мы принимаем оплату переводом или наличными.</p>
-                                            </div>
-                                        </li>
-                                        <li class="questionsItems">
-                                            <button class="itemBtn">Гарантируете ли вы сохранность вещей?</button>
-                                            <div class="itemInner">
-                                                <p>Наши клинеры несут полную материальную ответственность. Переживать за сохранность вещей, мебели и других предметов не стоит. Мы уверены в честности и добросовестности сотрудников. Перед принятием на работу каждого специалиста осуществляется жесткий отбор. Требования к соискателям высокие. Сомнительное прошлое, негативные рекомендации – это служит поводом для отказа в трудоустройстве.
-                                                    <br><br>
-                                                    Если есть сомнения, вы можете составить опись имущества. Это станет дополнительной гарантией и залогом спокойствия.
-                                                </p>
-                                            </div>
-                                        </li>
-                                        <li class="questionsItems">
-                                            <button class="itemBtn">Входит ли мытье окон в стандартную услугу?</button>
-                                            <div class="itemInner">
-                                                <p>Это дополнительная услуга. Оплачивать ее потребуется отдельно. Узнать полную стоимость уборки вместе с окнами вы можете у сотрудников или на сайте. При необходимости можно оставить заявку на мойку жалюзи и оконных решеток, иных защищающих конструкций.</p>
-                                            </div>
-                                        </li>
-                                        <li class="questionsItems">
-                                            <button class="itemBtn">Я должен (должна) присутствовать во время работы клинеров?</button>
-                                            <div class="itemInner">
-                                                <p>Решать вам. Отсутствие или присутствие никак не влияют на качество работ. Объясняется это в первую очередь тем, что оплата осуществляется по факту их завершения, а не до. Поэтому уборщики заинтересованы в результате и качестве</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul class="questionsList">
+                                    <li class="questionsItems">
+                                        <button class="itemBtn">Сколько в среднем занимает уборка?</button>
+                                        <div class="itemInner">
+                                            <p>В среднем клининг занимает от 2-8 часов. При определении точного времени мы будем руководствоваться сложностью предстоящих работ, площадью помещений и особенностями заказанной услуги</p>
+                                        </div>
+                                    </li>
+                                    <li class="questionsItems">
+                                        <button class="itemBtn">Как оплатить клининг?</button>
+                                        <div class="itemInner">
+                                            <p>Оплата осуществляется после принятия работ. Способ выбирает клиент. Мы принимаем оплату переводом или наличными.</p>
+                                        </div>
+                                    </li>
+                                    <li class="questionsItems">
+                                        <button class="itemBtn">Гарантируете ли вы сохранность вещей?</button>
+                                        <div class="itemInner">
+                                            <p>Наши клинеры несут полную материальную ответственность. Переживать за сохранность вещей, мебели и других предметов не стоит. Мы уверены в честности и добросовестности сотрудников. Перед принятием на работу каждого специалиста осуществляется жесткий отбор. Требования к соискателям высокие. Сомнительное прошлое, негативные рекомендации – это служит поводом для отказа в трудоустройстве.
+                                                <br><br>
+                                                Если есть сомнения, вы можете составить опись имущества. Это станет дополнительной гарантией и залогом спокойствия.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="questionsItems">
+                                        <button class="itemBtn">Входит ли мытье окон в стандартную услугу?</button>
+                                        <div class="itemInner">
+                                            <p>Это дополнительная услуга. Оплачивать ее потребуется отдельно. Узнать полную стоимость уборки вместе с окнами вы можете у сотрудников или на сайте. При необходимости можно оставить заявку на мойку жалюзи и оконных решеток, иных защищающих конструкций.</p>
+                                        </div>
+                                    </li>
+                                    <li class="questionsItems">
+                                        <button class="itemBtn">Я должен (должна) присутствовать во время работы клинеров?</button>
+                                        <div class="itemInner">
+                                            <p>Решать вам. Отсутствие или присутствие никак не влияют на качество работ. Объясняется это в первую очередь тем, что оплата осуществляется по факту их завершения, а не до. Поэтому уборщики заинтересованы в результате и качестве</p>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </section>
                     </div>

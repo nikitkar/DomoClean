@@ -12,6 +12,10 @@
     padding: 0 48px;
     width: 100%;
 
+    @media screen and (max-width: 800px){
+        padding: 0 24px;
+    }
+
     &--wrapper {
         @include displayFlex(flex-start, center, column);
 
