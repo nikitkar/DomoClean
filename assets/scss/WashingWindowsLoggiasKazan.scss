@@ -1,0 +1,50 @@
+@import "style";
+
+.CleaningAfterRenovation {
+    &--text {
+        span{
+            @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+        }
+    }
+}
+
+.WhyCleaning {
+    &--text {
+        span{
+            @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+        }
+    }
+
+    &Ul{
+        list-style-type: disc;
+        padding-left: 20px;
+
+        @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+        color: #333333;
+    }
+}
+
+.typesWindows{
+    @include displayFlex(center, center, column);
+    gap: 24px;
+    width: 100%;
+
+    &--title{
+        @include titleBlock();
+        text-align: center;
+        word-break: break-word;
+        width: 100%;
+    }
+
+    &List{
+        @include displayFlex(center, space-between);
+        gap: 28px;
+    }
+
+    &Item{
+        &s{
+            @include displayFlex(center, center, column);
+            gap: 10px;
+        }
+    }
+}
