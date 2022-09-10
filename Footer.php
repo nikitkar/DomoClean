@@ -2,7 +2,7 @@
                 <div class="conteiner">
                     <div class="footerWrapper">
                         <ul class="footerList">
-                            <li class="footerItems">
+                            <li class="footerItems" style="max-width: 401px;">
                                 <a href="/">
                                     <img class="footerLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="footerLogo">
                                 </a>
@@ -20,9 +20,9 @@
                             <li class="footerItems">
                                 <h4 class="footerItem--title">Основные услуги</h4>
                                 <a class="footerItem" href="cleacning-apartments">Уборка квартиры</a>
-                                <a class="footerItem" href="/">Генеральная уборка</a>
+                                <a class="footerItem" href="/general-cleaning">Генеральная уборка</a>
                                 <a class="footerItem" href="/cottage-cleaning">Уборка коттеджа</a>
-                                <a class="footerItem" href="/">Уборка офиса</a>
+                                <a class="footerItem" href="/cleaning-offices">Уборка офиса</a>
                                 <a class="footerItem" href="/cleaning-after-repair">Уборка после ремонта</a>
                             </li>
                             <li class="footerItems">
@@ -65,9 +65,10 @@
                                     <div class="footerItem--locationContent">
                                         <p>Наш адрес:
                                             <br>
-                                            Казань, ул. Глушко, 43
+                                            <a href="https://yandex.by/maps/-/CCUVyNcQ~D">Казань, ул. Глушко, 43</a>
                                             <br>
                                         </p>
+
                                         <a href="mailto:support@domoclean.ru">
                                             support@domoclean.ruasd
                                         </a>

@@ -23,6 +23,9 @@
 
         @include displayFlex(flex-start, center, column);
         gap: 8px;
+        
+        max-width: 260px;
+        width: 100%;
     }
 
     &Logo {

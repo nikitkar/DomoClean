@@ -96,6 +96,7 @@
         }
 
         .WhyCleaning {
+            width: 100%;
             &--info {
                 padding: 0px 48px 24px;
             }
@@ -109,6 +110,8 @@
                     "MontserratAlternates-Bold"
                 );
                 color: var(--Color__Main);
+
+                word-break: break-word;
             }
 
             &Img {
@@ -128,6 +131,7 @@
         }
 
         .StandardServices {
+            width: 100%;
             &Text {
                 padding: 0px 48px;
 
@@ -159,7 +163,7 @@
             &Block {
                 background-color: var(--Color__White);
                 padding: 0px 48px;
-                
+
                 @media screen and (max-width: 800px) {
                     padding: 24px;
                 }
@@ -214,6 +218,8 @@
                         400,
                         "Inter-Regular"
                     );
+
+                    width: 100%;
                 }
             }
         }

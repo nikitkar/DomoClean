@@ -576,7 +576,7 @@
     .questions {
         margin-bottom: 48px;
         padding: 0 48px !important;
-        
+
         @media screen and (max-width: 800px) {
             padding: 0 24px !important;
         }
@@ -592,7 +592,7 @@
         &Title {
             @include titleBlock();
 
-            @media screen and (max-width: 350px){
+            @media screen and (max-width: 350px) {
                 word-break: break-word;
             }
         }
@@ -770,6 +770,7 @@
     }
 
     .ourAbout {
+        width: 100%;
         &Wrapper {
             @include displayFlex(center, center, column);
 
@@ -778,6 +779,8 @@
 
         &Title {
             @include titleBlock();
+            word-wrap: break-word;
+            width: 100%;
         }
 
         &TriggerText {
@@ -788,10 +791,14 @@
             );
             color: var(--Color__Main);
             text-align: left;
+
+            width: 100%;
+            word-wrap: break-word;
         }
 
         &Block {
             &Info {
+                width: 100%;
                 @include displayFlex(center, space-between);
 
                 @media screen and (max-width: 800px) {
@@ -825,6 +832,8 @@
                     gap: 13px;
                     width: 100%;
                     color: #333333;
+
+                    word-break: break-word;
 
                     &Title {
                         @include font(
@@ -988,9 +997,11 @@
             }
 
             &Contact {
+                width: 100%;
                 @include displayFlex(flex-start, center, column);
                 gap: 17px;
-                width: 100%;
+                
+                word-break: break-word;
 
                 &--title {
                     @include font(
@@ -1015,6 +1026,7 @@
             }
 
             &Tel {
+                width: 100%;
                 @include displayFlex(center, center);
                 @include font(
                     var(--SizeText__MediunSubtitle),

@@ -173,13 +173,13 @@ Template Name: Home
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices2.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Генеральная уборка</p>
-                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                            <a class="listServices--button  buttonStandart" href="/general-cleaning">Подробнее</a>
                         </span>
                     </li>
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices3.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Мытье окон</p>
-                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                            <a class="listServices--button  buttonStandart" href="/washing-windows">Подробнее</a>
                         </span>
                     </li>
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices4.png);">
@@ -191,7 +191,7 @@ Template Name: Home
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices5.png);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка офисных помещений</p>
-                            <a class="listServices--button  buttonStandart" href="/">Подробнее</a>
+                            <a class="listServices--button  buttonStandart" href="/cleaning-offices">Подробнее</a>
                         </span>
                     </li>
                     <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices6.png);">
@@ -249,9 +249,7 @@ Template Name: Home
                     </ul>
 
                     <button class="offerBtn buttonStandart">
-                        <a href="#feedback">
-                            Узнать цены на клининг
-                        </a>
+                        <a href="#feedback">Заказать клининг</a>
                     </button>
                 </div>
             </div>
@@ -298,7 +296,7 @@ Template Name: Home
                             </li>
                         </ul>
 
-                        <a class="WorksBtn  buttonStandart" href="/">Перейти в фотогалерею</a>
+                        <a class="WorksBtn  buttonStandart" href="/photogallery">Перейти в фотогалерею</a>
                     </ul>
                 </div>
             </div>
@@ -369,7 +367,7 @@ Template Name: Home
                         </div>
                     </div>
 
-                    <a class="commentCustomersBtn  buttonStandart" href="javascript:void(0);">Перейти к отзывам</a>
+                    <a class="commentCustomersBtn  buttonStandart" href="/reviews">Перейти к отзывам</a>
                 </div>
             </div>
         </section>

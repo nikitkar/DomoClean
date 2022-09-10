@@ -232,7 +232,7 @@ Template Name: CliningOffice
                     <div class="commentCustomersWrapper">
                         <h2 class="commentCustomersTitle">Отзывы наших клиентов</h2>
 
-                        <div class="commentCustomersContent">
+                        <div class="commentCustomersContent" style="padding: 0; box-shadow: none;">
                             <div class="commentCustomersContent--wrapper">
                                 <div class="commentContentTitle">
                                     <div class="commentTitle--img">

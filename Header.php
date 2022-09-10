@@ -53,32 +53,32 @@
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/services">
                                             Услуги
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/price">
                                             Прайс
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/photogallery">
                                             Фотогалерея
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/reviews">
                                             Отзывы
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/questionsand-answers">
                                             Вопросы и ответы
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="">
+                                        <a class="menuItem" href="/articles">
                                             Статьи
                                         </a>
                                     </li>
@@ -87,7 +87,9 @@
                                             Контакты
                                         </a>
                                     </li>
-                                    <button class="btn buttonStandart">Заказать клининг</button>
+                                    <button class="offerBtn buttonStandart">
+                                        <a href="#feedback">Заказать клининг</a>
+                                    </button>
                                 </ul>
 
                                 <ul class="menuList--modile">
@@ -101,32 +103,32 @@
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/services">
                                                 Услуги
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/price">
                                                 Прайс
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/photogallery">
                                                 Фотогалерея
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/reviews">
                                                 Отзывы
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/questionsand-answers">
                                                 Вопросы и ответы
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="">
+                                            <a class="menuList--modileItem" href="/articles">
                                                 Статьи
                                             </a>
                                         </li>
@@ -137,7 +139,9 @@
                                         </li>
                                     </ul>
 
-                                    <button class="btnHeaderModile buttonStandart">Заказать клининг</button>
+                                    <button class="offerBtn buttonStandart">
+                                        <a href="#feedback">Заказать клининг</a>
+                                    </button>
                                 </ul>
                             </nav>
                         </div>
