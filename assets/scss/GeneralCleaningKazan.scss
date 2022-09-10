@@ -5,10 +5,10 @@
 }
 
 .cleaningApartments {
-    &Img {
-        height: 151px;
-        max-width: 258px;
-        width: 100%;
+    &ImgOther {
+        height: 151px !important;
+        max-width: 258px !important;
+        width: 100% !important;
 
         background-position: center;
         background-size: cover;
@@ -30,6 +30,23 @@
     gap: 24px;
     width: 100%;
 
+    padding: 0 48px;
+
+    @media screen and (max-width: 800px) {
+        padding: 0 24px;
+    }
+
+    &Text {
+        @include font(var(--SizeText__Regular), 400, "Inter-Regular");
+        color: #333333;
+
+        width: 100%;
+
+        span {
+            @include font(var(--SizeText__Bold), 700, "Inter-Bold");
+        }
+    }
+
     &List {
         @include displayFlex(center, flex-start);
         flex-wrap: wrap;
@@ -39,8 +56,12 @@
 
     &Item {
         &s {
-            @include displayFlex(center, center);
+            @include displayFlex(center, flex-start);
             gap: 10px;
+
+            @media screen and (max-width: 600px) {
+                @include displayFlex(flex-start, center, column);
+            }
 
             max-width: 375px;
             width: 100%;
@@ -53,19 +74,13 @@
             background-color: var(--Color__BGGrey);
         }
 
-        &Text{
+        &Text {
             color: #333333;
             @include font(var(--SizeText__Regular), 400, "Inter-Regular");
-        }
-    }
-}
 
-.mainWrapper{
-    .AfterRenivation{
-        padding: 0;
-    }
-    .questions{
-        padding: 0 !important; 
-        margin: 0;
+            @media screen and (max-width: 600px) {
+                word-break: break-word;
+            }
+        }
     }
 }

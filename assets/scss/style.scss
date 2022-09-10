@@ -487,6 +487,8 @@
     .commentCustomers {
         margin-bottom: 48px;
 
+        width: 100%;
+
         &Wrapper {
             @include displayFlex(center, flex-start, column);
 
@@ -495,12 +497,17 @@
 
         &Title {
             @include titleBlock();
+
+            width: 100%;
+            word-break: break-word;
         }
 
         &Content {
             padding: 24px;
             border-radius: 48px;
             box-shadow: var(--Effect__Wide);
+
+            width: 100%;
 
             &--wrapper {
                 @include displayFlex(flex-start, center, column);
@@ -568,6 +575,12 @@
 
     .questions {
         margin-bottom: 48px;
+        padding: 0 48px !important;
+        
+        @media screen and (max-width: 800px) {
+            padding: 0 24px !important;
+        }
+
         width: 100%;
 
         &Wrapper {
@@ -578,6 +591,10 @@
 
         &Title {
             @include titleBlock();
+
+            @media screen and (max-width: 350px){
+                word-break: break-word;
+            }
         }
 
         &List {
