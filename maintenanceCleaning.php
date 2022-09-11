@@ -146,9 +146,19 @@ Template Name: MaintenanceCleaning
                                 <td class="AfterRenivationTable--table--items">от 60 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
-                                <td class="AfterRenivationTable--table--items">Мытье балконов/лоджий</td>
-                                <td class="AfterRenivationTable--table--items"></td>
-                                <td class="AfterRenivationTable--table--items">от 2500 руб + балконный блок</td>
+                                <td class="AfterRenivationTable--table--items">Влажная уборка дома</td>
+                                <td class="AfterRenivationTable--table--items">1 м2</td>
+                                <td class="AfterRenivationTable--table--items">от 60 руб</td>
+                            </tr>
+                            <tr class="AfterRenivationTable--table--str">
+                                <td class="AfterRenivationTable--table--items">Уборка коттеждей</td>
+                                <td class="AfterRenivationTable--table--items">1 м2</td>
+                                <td class="AfterRenivationTable--table--items">от 100-150 руб</td>
+                            </tr>
+                            <tr class="AfterRenivationTable--table--str">
+                                <td class="AfterRenivationTable--table--items">Уборка дачи</td>
+                                <td class="AfterRenivationTable--table--items">1 м2</td>
+                                <td class="AfterRenivationTable--table--items">от 150 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
                                 <td class="AfterRenivationTable--table--items">Мытье холодильника</td>
@@ -156,14 +166,9 @@ Template Name: MaintenanceCleaning
                                 <td class="AfterRenivationTable--table--items">700 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
-                                <td class="AfterRenivationTable--table--items">Уборка нежилого помещения</td>
-                                <td class="AfterRenivationTable--table--items">1 eд</td>
-                                <td class="AfterRenivationTable--table--items">от 150-170 руб</td>
-                            </tr>
-                            <tr class="AfterRenivationTable--table--str">
-                                <td class="AfterRenivationTable--table--items">Послестроительная уборка</td>
-                                <td class="AfterRenivationTable--table--items">1 eд</td>
-                                <td class="AfterRenivationTable--table--items">от 130-160 руб</td>
+                                <td class="AfterRenivationTable--table--items">Уборка частного дома</td>
+                                <td class="AfterRenivationTable--table--items">1 м2</td>
+                                <td class="AfterRenivationTable--table--items">от 100-150 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
                                 <td class="AfterRenivationTable--table--items">Мытье духовки</td>
@@ -171,18 +176,23 @@ Template Name: MaintenanceCleaning
                                 <td class="AfterRenivationTable--table--items">600 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
+                                <td class="AfterRenivationTable--table--items">Разовая уборка</td>
+                                <td class="AfterRenivationTable--table--items">1 м2</td>
+                                <td class="AfterRenivationTable--table--items">от 60 руб</td>
+                            </tr>
+                            <tr class="AfterRenivationTable--table--str">
                                 <td class="AfterRenivationTable--table--items">Срочная уборка</td>
-                                <td class="AfterRenivationTable--table--items">1 eд</td>
+                                <td class="AfterRenivationTable--table--items">1 м2</td>
                                 <td class="AfterRenivationTable--table--items">по договоренности</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
                                 <td class="AfterRenivationTable--table--items">Мытье люстры</td>
                                 <td class="AfterRenivationTable--table--items">1 ед</td>
-                                <td class="AfterRenivationTable--table--items">от 300</td>
+                                <td class="AfterRenivationTable--table--items">от 300 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
                                 <td class="AfterRenivationTable--table--items">Мытье жалюзи</td>
-                                <td class="AfterRenivationTable--table--items">1 eд</td>
+                                <td class="AfterRenivationTable--table--items">1 ед</td>
                                 <td class="AfterRenivationTable--table--items">200 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
@@ -191,9 +201,9 @@ Template Name: MaintenanceCleaning
                                 <td class="AfterRenivationTable--table--items">400 руб</td>
                             </tr>
                             <tr class="AfterRenivationTable--table--str">
-                                <td class="AfterRenivationTable--table--items">Мойка стеклянных поверхностей</td>
-                                <td class="AfterRenivationTable--table--items"></td>
-                                <td class="AfterRenivationTable--table--items">по договоренности</td>
+                                <td class="AfterRenivationTable--table--items">Уборка после мероприятия/праздника</td>
+                                <td class="AfterRenivationTable--table--items">1 м2</td>
+                                <td class="AfterRenivationTable--table--items">от 130-160 руб</td>
                             </tr>
                         </table>
                     </div>

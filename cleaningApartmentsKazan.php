@@ -288,57 +288,57 @@ Template Name: cleaningApartmentsKazan
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Генеральная уборка квартиры</td>
                                     <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">от 100-150 руб без окон</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Уборка квартир после ремонта</td>
                                     <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 2500 руб + балк блок</td>
+                                    <td class="AfterRenivationTable--table--items">от 130-160 руб</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Мытье балконов/лоджий</td>
-                                    <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items"></td>
+                                    <td class="AfterRenivationTable--table--items">от 2500 руб + балк блок</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Мытье холодильника</td>
                                     <td class="AfterRenivationTable--table--items">1 ед</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">700 руб</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Комплексная уборка</td>
                                     <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">от 100-150 руб без окон</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Влажная уборка квартиры</td>
                                     <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">от 60 руб</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Поддерживающая уборка(экспресс)</td>
                                     <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">от 60 руб</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Уборка нежилого помещения</td>
                                     <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">от 150-170 руб</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Послестроительная уборка</td>
                                     <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">от 130-160 руб</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Мытье духовки</td>
                                     <td class="AfterRenivationTable--table--items">1 ед</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items">600 руб </td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Срочная уборка</td>
-                                    <td class="AfterRenivationTable--table--items">1 м2</td>
-                                    <td class="AfterRenivationTable--table--items">от 100-150 без окон</td>
+                                    <td class="AfterRenivationTable--table--items"></td>
+                                    <td class="AfterRenivationTable--table--items">по договоренности</td>
                                 </tr>
                                 <tr class="AfterRenivationTable--table--str">
                                     <td class="AfterRenivationTable--table--items">Мытье люстры</td>
@@ -349,6 +349,66 @@ Template Name: cleaningApartmentsKazan
                                     <td class="AfterRenivationTable--table--items">Мытье жалюзи</td>
                                     <td class="AfterRenivationTable--table--items">1 ед</td>
                                     <td class="AfterRenivationTable--table--items">200 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Мытье микроволновки</td>
+                                    <td class="AfterRenivationTable--table--items">1 ед</td>
+                                    <td class="AfterRenivationTable--table--items">400 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка в новой квартире</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 60 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка после мероприятия/праздника</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 130-160 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка квартиры после аренды</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 120 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка таунхауса</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 130-150 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка перед праздниками</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 60 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка квартиры после переезда</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 120 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Мытье панорамных балконов и окон</td>
+                                    <td class="AfterRenivationTable--table--items">Створка</td>
+                                    <td class="AfterRenivationTable--table--items">от 500-750 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка однокомнатной квартиры</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 60-150 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка двухкомнатной комнаты</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 60-150 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка трехкомнатной квартиры</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 60-150 руб</td>
+                                </tr>
+                                <tr class="AfterRenivationTable--table--str">
+                                    <td class="AfterRenivationTable--table--items">Уборка четырехкомнатной квартиры</td>
+                                    <td class="AfterRenivationTable--table--items">1 м2</td>
+                                    <td class="AfterRenivationTable--table--items">от 60-150 руб</td>
                                 </tr>
                             </table>
                         </div>
@@ -367,8 +427,8 @@ Template Name: cleaningApartmentsKazan
                                             <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.webp" alt="commentTitleAvatar">
                                         </div>
                                         <div class="commentTitle--personInfo">
-                                            <p class="commentTitle--personInfoName">Ахметова Ф.Р.</p>
-                                            <span class="commentTitle--personInfoWhatDoes">Врач аллерголог</span>
+                                            <p class="commentTitle--personInfoName">Никифорова Т.И</p>
+                                            <span class="commentTitle--personInfoWhatDoes">Клиент</span>
                                             <div class="commentTitle--personInfoEstimation">
                                                 <div class="personInfoEstimationStar">
                                                     <span class="star"><svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -399,10 +459,15 @@ Template Name: cleaningApartmentsKazan
                                     </div>
                                     <div class="commentContentText">
                                         <p class="commentContentText--text">
-                                            Вне зависимости от того, где вы живете – в коттедже за пределами города или в квартире, я рекомендую, будучи доктором (аллерголог, стаж – 10 лет), с наступлением весны проводить генеральную уборку. Клининг в это время необходим по объективной причине. За зиму, когда проветривание дома или квартиры ограничено, в комнатах скапливаются пыль и грязь, особенно в труднодоступных местах. Появляются аллергены и благоприятные для размножения нежелательных микроорганизмов условия.
-                                            Нужна тщательная уборка после зимы и аллергикам, и людям, проживающим с детьми. Генеральная предполагает ряд мероприятий. Это влажная уборка и сухая. Нужно «генералить» чаще, но смена сезонов – повод, чтобы задуматься о наведении чистоты. Это в первую очередь забота о собственном здоровье.
-                                            Когда времени не остается, мы с семьей привлекаем клинеров.
-                                            Ничего плохого сказать о компании не могу. В Казани давно, пользуемся клининговыми услугами регулярно. Сотрудники фирмы всегда делают работу качественно. </p>
+                                            Юбилей – дело такое. Не отмашешься, только согласно кивнешь и начнешь накрывать стол. Но то, что остается после торжества, домом назвать сложно. Особенно, если гости приезжают из самых разных городов. <br>
+                                            Сначала я решила сама разобраться с тем, что осталось после уехавших друзей мужа. Через пару часов поняла, конца уборки не видно при самом ярком освещении. <br>
+                                            На следующий день зашла на просторы интернета стала искать по всяким форумам, но тщетно. Пока одна из участниц  не поделилась ссылкой на компанию Domoclean. Сначала отмахнулась. Потом медленно и спокойно вчиталась в перечень услуг. Через час появилась надежда на спасение. <br>
+                                            Чтобы проверить – не сон ли это, позвонила в организацию. Ответил приятный молодой голос, которому я поведала о своих страданиях. На том конце трубки не стали долго рассуждать, а выдали план по спасению меня и моего жилища. <br>
+                                            План был основательный. О цене даже боялась спросить. Но выдохнула, когда услышала конечную цифру. Относительно дешево получилось. <br>
+                                            Это был первый раз моего пользования услугами клининга. Договорились. На следующий день в точное время приехали девочки. С чистящими и моющими. Пылесосами и набором каких-то инструментов. <br>
+                                            Я проводила их к самому опасному месту в квартире – кухне. Через секунду девчонки принялись наводить порядок. Я только успевала подсказывать, что куда поставить из посуды. Все было отмыто и оттерто до пятнышка. Кухонная плита сияла белизной. Стены вымыты, вытяжка и трубы почищены, мусор собран в специальные мешки. Дальше я уже не стала им мешать. <br>
+                                            Хочу только сказать, что к концу дня они привели мою квартиру в идеальное состояние. Ни пылинки, ни мусоринки. Как будто гостей никогда не было. <br>
+                                            Муж – виновник торжества даже глазам не поверил. Пришел с работы и не понял, что случилось. Спасибо команде профессионалов от меня и мужа. Спасли нас от разгрома. Работа выше всех похвал.
                                     </div>
                                 </div>
                             </div>

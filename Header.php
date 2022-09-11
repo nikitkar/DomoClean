@@ -73,7 +73,7 @@
                                         </a>
                                     </li>
                                     <li class="menuItems">
-                                        <a class="menuItem" href="/questionsand-answers">
+                                        <a class="menuItem" href="/questions">
                                             Вопросы и ответы
                                         </a>
                                     </li>
@@ -123,7 +123,7 @@
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/questionsand-answers">
+                                            <a class="menuList--modileItem" href="/questions">
                                                 Вопросы и ответы
                                             </a>
                                         </li>
