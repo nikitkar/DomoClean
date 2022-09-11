@@ -1,0 +1,50 @@
+@import "style";
+
+.photoGallery{
+    width: 100%;
+
+    padding: 0 48px;
+    @media screen and (max-width: 800px) {
+        padding: 0 24px;
+    }
+
+    @include displayFlex(center, center, column);
+    gap: 24px;
+
+    &Title{
+        @include titleBlock();
+        width: 100%;
+        text-align: center;
+
+        word-break: break-all;
+    }
+
+    &List{
+        @include displayFlex(center, center, column);
+        gap: 32px;
+
+        width: 100%
+    }
+
+    &Item{
+        &s{
+            @include displayFlex(center, center, column);
+            gap: 16px;
+            width: 100%;
+        }
+
+        &--title{
+            @include font(var(--SizeText__VerySmallSubtitle), 700, "Inter-Bold");
+            text-align: center;
+            width: 100%;
+        }
+
+        &--img{
+            max-width: 1000px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}
