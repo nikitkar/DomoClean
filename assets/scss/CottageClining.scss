@@ -178,7 +178,7 @@
                 }
 
                 &--info {
-                    @include displayFlex(flex-start, normal);
+                    @include displayFlex(flex-start, space-evenly);
                     flex-wrap: wrap;
                     gap: 32px;
                 }

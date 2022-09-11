@@ -48,7 +48,7 @@
     }
 
     &List {
-        @include displayFlex(center, flex-start);
+        @include displayFlex(center, center);
         flex-wrap: wrap;
         gap: 24px;
         width: 100%;

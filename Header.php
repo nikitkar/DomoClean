@@ -19,7 +19,7 @@
                         <div class="headerInfo--wrapper">
                             <div class="headerTitle">
                                 <a class="logo" href="/">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.png" alt="logo">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/logo/logo.webp" alt="logo">
                                 </a>
                                 <span class="mainTitle">Доверьте уборку профессионалам!</span>
                             </div>
@@ -113,7 +113,7 @@
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/photogallery">
+                                            <a class="menuList--modileItem" href="/photo-gallery">
                                                 Фотогалерея
                                             </a>
                                         </li>
@@ -139,7 +139,7 @@
                                         </li>
                                     </ul>
 
-                                    <button class="offerBtn buttonStandart">
+                                    <button class="offerBtn buttonStandart" style="margin: 0;">
                                         <a href="#feedback">Заказать клининг</a>
                                     </button>
                                 </ul>

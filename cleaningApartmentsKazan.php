@@ -41,7 +41,7 @@ Template Name: cleaningApartmentsKazan
                         <ul class="cleaningApartmentsList">
                             <li class="cleaningApartmentsItems">
                                 <div class="cleaningApartments--innerImg">
-                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.png" alt="cleaningApartmentsImg">
+                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.webp" alt="cleaningApartmentsImg">
                                 </div>
 
                                 <div class="cleaningApartmentsItem">
@@ -68,7 +68,7 @@ Template Name: cleaningApartmentsKazan
 
                             <li class="cleaningApartmentsItems">
                                 <div class="cleaningApartments--innerImg">
-                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.png" alt="cleaningApartmentsImg">
+                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.webp" alt="cleaningApartmentsImg">
                                 </div>
 
                                 <div class="cleaningApartmentsItem">
@@ -95,7 +95,7 @@ Template Name: cleaningApartmentsKazan
 
                             <li class="cleaningApartmentsItems">
                                 <div class="cleaningApartments--innerImg">
-                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.png" alt="cleaningApartmentsImg">
+                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.webp" alt="cleaningApartmentsImg">
                                 </div>
 
                                 <div class="cleaningApartmentsItem">
@@ -126,7 +126,7 @@ Template Name: cleaningApartmentsKazan
 
                             <li class="cleaningApartmentsItems">
                                 <div class="cleaningApartments--innerImg">
-                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.png" alt="cleaningApartmentsImg">
+                                    <img class="cleaningApartmentsImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningKazan/cleaningKazanItemsImg1.webp" alt="cleaningApartmentsImg">
                                 </div>
 
                                 <div class="cleaningApartmentsItem">
@@ -159,7 +159,7 @@ Template Name: cleaningApartmentsKazan
                         <ul class="typeCleaningList">
                             <li class="typeCleaningItems">
                                 <div class="typeCleaningItemImg--inner">
-                                    <img class="typeCleaningItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <h5 class="typeCleaningItemTitle">Экспресс</h5>
                                 <p class="typeCleaningItemText">Так называемая поддерживающая уборка предполагает проведение клининга в формате «срочно».Вариант «экспресс» предполагает поверхностную уборку, потому что ключевой критерий – время.</p>
@@ -167,7 +167,7 @@ Template Name: cleaningApartmentsKazan
 
                             <li class="typeCleaningItems">
                                 <div class="typeCleaningItemImg--inner">
-                                    <img class="typeCleaningItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <h5 class="typeCleaningItemTitle">Генеральная уборка</h5>
                                 <p class="typeCleaningItemText">Этот вид уборки предполагает полное очищение имеющихся поверхностей. Чистыми после будут даже потолки, иные труднодоступные места. Мы удалим застарелые загрязнения, локальные пятна. Качество – то, что характеризует генеральную уборку.</p>
@@ -175,7 +175,7 @@ Template Name: cleaningApartmentsKazan
 
                             <li class="typeCleaningItems">
                                 <div class="typeCleaningItemImg--inner">
-                                    <img class="typeCleaningItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <h5 class="typeCleaningItemTitle">Послестроительная уборка</h5>
                                 <p class="typeCleaningItemText">Строительные работы, как и ремонт, приводят к образованию так называемых производственных загрязнений. Покрытия требуют бережного удаления пятен, пыли и не только. Суть – исключить повреждение плитки, ламината или иных отделочных материалов. Гарантируем особый подход. Все будет выглядеть совершенно.</p>
@@ -211,32 +211,32 @@ Template Name: cleaningApartmentsKazan
 
                         <ul class="cleaningNecessityList">
                             <li class="cleaningNecessityItems">
-                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg1.png" alt="cleaningNecessityItemImg">
+                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg1.webp" alt="cleaningNecessityItemImg">
                                 <h5 class="cleaningNecessityItemTitle">Подготовка к празднику</h5>
                                 <p class="cleaningNecessityItemText">Предстоит торжество или другое значимое мероприятие. Не всегда организатор располагает временем, возможностями для хотя бы минимальной уборки в квартире. В таком случае профессиональный клининг – оптимальное решение.</p>
                             </li>
                             <li class="cleaningNecessityItems">
-                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg2.png" alt="cleaningNecessityItemImg">
+                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg2.webp" alt="cleaningNecessityItemImg">
                                 <h5 class="cleaningNecessityItemTitle">Уборка после праздника</h5>
                                 <p class="cleaningNecessityItemText">Торжественное мероприятие завершено. Помещения в ненадлежащем состоянии. Гости довольны, но никто из них не готов убираться. А сотрудники нашей компании с удовольствием сделают это. Беспорядок не пугает нас.</p>
                             </li>
                             <li class="cleaningNecessityItems">
-                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg3.png" alt="cleaningNecessityItemImg">
+                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg3.webp" alt="cleaningNecessityItemImg">
                                 <h5 class="cleaningNecessityItemTitle">Помощь родным</h5>
                                 <p class="cleaningNecessityItemText">Помощь пожилым родным, близким. Работа, дом, быт, решение других задач... Времени на помощь родственникам не остается. Решение – заказ генеральной уборки квартиры для родного или просто близкого.</p>
                             </li>
                             <li class="cleaningNecessityItems">
-                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg4.png" alt="cleaningNecessityItemImg">
+                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg4.webp" alt="cleaningNecessityItemImg">
                                 <h5 class="cleaningNecessityItemTitle">Под аренду</h5>
                                 <p class="cleaningNecessityItemText">Предстоит сдача в аренду, квартира уже арендована, сданы гостями.</p>
                             </li>
                             <li class="cleaningNecessityItems">
-                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg5.png" alt="cleaningNecessityItemImg">
+                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg5.webp" alt="cleaningNecessityItemImg">
                                 <h5 class="cleaningNecessityItemTitle">После ремонта/ аварии</h5>
                                 <p class="cleaningNecessityItemText">Уборка после ремонта, затопления, пожара. Послеремонтный, иные виды клининга, связанные с протечками, прочими аварийными ситуациями – буквально необходимость.</p>
                             </li>
                             <li class="cleaningNecessityItems">
-                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg6.png" alt="cleaningNecessityItemImg">
+                                <img class="cleaningNecessityItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/cleaningNecessity/cleaningNecessityImg6.webp" alt="cleaningNecessityItemImg">
                                 <h5 class="cleaningNecessityItemTitle">Сильная занятость</h5>
                                 <p class="cleaningNecessityItemText">Когда на работе по объективным причинам приходится проводить много времени, сил на уборку не остается. Чтобы исключить эту задачу из перечня обыденных, обратитесь за услугами к профессиональным клинерам.</p>
                             </li>
@@ -246,7 +246,7 @@ Template Name: cleaningApartmentsKazan
                     <section class="blockInfo">
                         <div class="blockInfo--wrapper">
                             <div class="blockInfo--wrapperImg">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/images/blockInfo/blockInfoImg.png" alt="blockInfoImg">
+                                <img src="<?php bloginfo('template_url'); ?>/assets/images/blockInfo/blockInfoImg.webp" alt="blockInfoImg">
                             </div>
                             <div class="blockInfo--content">
                                 <h5 class="blockInfo--title">Как часто нужно убираться</h5>
@@ -364,7 +364,7 @@ Template Name: cleaningApartmentsKazan
                                 <div class="commentCustomersContent--wrapper">
                                     <div class="commentContentTitle">
                                         <div class="commentTitle--img">
-                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.jpg" alt="commentTitleAvatar">
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.webp" alt="commentTitleAvatar">
                                         </div>
                                         <div class="commentTitle--personInfo">
                                             <p class="commentTitle--personInfoName">Ахметова Ф.Р.</p>

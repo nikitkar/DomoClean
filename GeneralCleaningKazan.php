@@ -42,7 +42,7 @@ Template Name: GeneralCleaning
 
                         <ul class="cleaningApartmentsList">
                             <li class="cleaningApartmentsItems">
-                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg1.png);"></div>
+                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg1.webp);"></div>
 
                                 <div class="cleaningApartmentsItem">
                                     <h5 class="cleaningApartmentsItem--title">Весной, осенью.</h5>
@@ -52,7 +52,7 @@ Template Name: GeneralCleaning
                                 </div>
                             </li>
                             <li class="cleaningApartmentsItems">
-                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg2.png);"></div>
+                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg2.webp);"></div>
 
                                 <div class="cleaningApartmentsItem">
                                     <h5 class="cleaningApartmentsItem--title">Перед появлением на свет детей.</h5>
@@ -62,7 +62,7 @@ Template Name: GeneralCleaning
                                 </div>
                             </li>
                             <li class="cleaningApartmentsItems">
-                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg3.png);"></div>
+                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg3.webp);"></div>
 
                                 <div class="cleaningApartmentsItem">
                                     <h5 class="cleaningApartmentsItem--title">После сдачи в аренду жилого помещения или покупки квартиры, дома. </h5>
@@ -72,7 +72,7 @@ Template Name: GeneralCleaning
                                 </div>
                             </li>
                             <li class="cleaningApartmentsItems">
-                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg4.png);"></div>
+                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg4.webp);"></div>
 
                                 <div class="cleaningApartmentsItem">
                                     <h5 class="cleaningApartmentsItem--title">После проведения праздничных мероприятий.</h5>
@@ -82,7 +82,7 @@ Template Name: GeneralCleaning
                                 </div>
                             </li>
                             <li class="cleaningApartmentsItems">
-                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg5.png);"></div>
+                                <div class="cleaningApartmentsImg cleaningApartmentsImgOther" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/GeneralCleaningKazan/GeneralCleaningKazanImg5.webp);"></div>
 
                                 <div class="cleaningApartmentsItem">
                                     <h5 class="cleaningApartmentsItem--title">После ремонта/ аварии</h5>
@@ -104,49 +104,49 @@ Template Name: GeneralCleaning
                         <ul class="WhatIncludedPresentedServiceList">
                             <li class="WhatIncludedPresentedServiceItems">
                                 <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <p class="WhatIncludedPresentedServiceItemText">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.
                                 </p>
                             </li>
                             <li class="WhatIncludedPresentedServiceItems">
                                 <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <p class="WhatIncludedPresentedServiceItemText">Сухая уборка всех поверхностей с помощью пылесоса.
                                 </p>
                             </li>
                             <li class="WhatIncludedPresentedServiceItems">
                                 <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <p class="WhatIncludedPresentedServiceItemText">Протирка бытовых приборов, техники, зеркал, стеклянных поверхностей.
                                 </p>
                             </li>
                             <li class="WhatIncludedPresentedServiceItems">
                                 <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <p class="WhatIncludedPresentedServiceItemText">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.
                                 </p>
                             </li>
                             <li class="WhatIncludedPresentedServiceItems">
                                 <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <p class="WhatIncludedPresentedServiceItemText">Сухая уборка всех поверхностей с помощью пылесоса.
                                 </p>
                             </li>
                             <li class="WhatIncludedPresentedServiceItems">
                                 <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <p class="WhatIncludedPresentedServiceItemText">Протирка бытовых приборов, техники, зеркал, стеклянных поверхностей.
                                 </p>
                             </li>
                             <li class="WhatIncludedPresentedServiceItems">
                                 <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="typeCleaningItemImg">
+                                    <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.webp" alt="typeCleaningItemImg">
                                 </div>
                                 <p class="WhatIncludedPresentedServiceItemText">Сухая уборка всех поверхностей с помощью пылесоса.
                                 </p>
@@ -171,7 +171,7 @@ Template Name: GeneralCleaning
                     <section class="AfterRenivation">
                         <div class="AfterRenivationText">
                             <h2 class="AfterRenivationText--title">
-                                Прайс-лист на уборку квартир в Казани
+                                Прайс-лист на генеральную уборку в Казани
                             </h2>
                         </div>
                         <div class="AfterRenivationTable">
@@ -265,7 +265,7 @@ Template Name: GeneralCleaning
                                 <div class="commentCustomersContent--wrapper">
                                     <div class="commentContentTitle">
                                         <div class="commentTitle--img">
-                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.jpg" alt="commentTitleAvatar">
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.webp" alt="commentTitleAvatar">
                                         </div>
                                         <div class="commentTitle--personInfo">
                                             <p class="commentTitle--personInfoName">Ахметова Ф.Р.</p>

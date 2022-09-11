@@ -48,7 +48,7 @@
     }
 
     &List {
-        @include displayFlex(center, space-between);
+        @include displayFlex(center, center);
         gap: 28px;
 
         flex-wrap: wrap;
@@ -132,7 +132,7 @@
             &--inner {
                 @include displayFlex(center, center, column);
                 @include backgroundImg(
-                    "../images/frequentlyUsedIcons/decor/Img6.png",
+                    "../images/frequentlyUsedIcons/decor/Img6.webp",
                     contain,
                     center,
                     no-repeat
@@ -177,7 +177,7 @@
         @include titleBlock();
 
         text-align: center;
-        word-break: break-word;
+        // word-break: break-word;
         width: 100%;
     }
 
@@ -194,6 +194,10 @@
             max-width: 580px;
             width: 100%;
             height: 100%;
+
+            @media screen and (max-width: 1285px) {
+                max-width: 780px;
+            }
 
             @include displayFlex(flex-start, space-between);
             gap: 32px;

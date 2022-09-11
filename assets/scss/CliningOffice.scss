@@ -132,6 +132,7 @@
 
         .StandardServices {
             width: 100%;
+
             &Text {
                 padding: 0px 48px;
 
@@ -162,14 +163,14 @@
 
             &Block {
                 background-color: var(--Color__White);
-                padding: 0px 48px;
+                padding: 24px 48px 0;
 
                 @media screen and (max-width: 800px) {
                     padding: 24px;
                 }
 
                 &--info {
-                    @include displayFlex(flex-start, normal);
+                    @include displayFlex(center, space-evenly);
                     flex-wrap: wrap;
                     gap: 32px;
                 }

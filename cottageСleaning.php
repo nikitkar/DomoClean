@@ -49,7 +49,7 @@ Template Name: CottageClining
                         <h2 class="WhyCleaning--title">
                             Стоимость уборки коттеджа
                         </h2>
-                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/CottageClining/back.png);">
+                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/CottageClining/back.webp);">
                         </div>
                         <p class="WhyCleaning--text">
                             Каждый коттедж отличается от других. Площадью, ухоженностью. Именно от этого зависит масштаб работ и стоимость. Помимо этого наши специалисты при расчете цены уточнят пожелания заказчика, уровень загрязненности и иные факторы. Все индивидуально.
@@ -77,32 +77,32 @@ Template Name: CottageClining
                     <div class="StandardServicesCBlock">
                         <ul class="StandardServicesCBlock--info">
                             <li class="StandardServicesCBlock--items">
-                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img10.png" alt="offerItemImg1">
+                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img10.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesCBlock--title">Очистка стен от пятен, загрязнений.</p>
                             </li>
                             <li class="StandardServicesCBlock--items">
-                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img17.png" alt="offerItemImg1">
+                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img17.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesCBlock--title">Мытье полов, чистка других покрытий, а также дверей, подоконников, радиаторов и прочих запыленных поверхностей.</p>
                             </li>
                             <li class="StandardServicesCBlock--items">
-                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img13.png" alt="offerItemImg1">
+                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img13.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesCBlock--title">Очистка санузла, туалета, ванны, иных помещений с дополнительной обработкой защищающими средствами.</p>
                             </li>
                             <li class="StandardServicesCBlock--items">
-                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="offerItemImg1">
+                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesCBlock--title">Наведение чистоты в гостиной, кухне, спальне.</p>
                             </li>
                             <li class="StandardServicesCBlock--items">
-                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img8.png" alt="offerItemImg1">
+                                <div class="StandardServicesCBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesCBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img8.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesCBlock--title">Чистка бытовой техники.</p>
                             </li>
@@ -198,7 +198,7 @@ Template Name: CottageClining
                             <div class="commentCustomersContent--wrapper">
                                 <div class="commentContentTitle">
                                     <div class="commentTitle--img">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/avatar.png" alt="commentTitleAvatar">
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/avatar.webp" alt="commentTitleAvatar">
                                     </div>
                                     <div class="commentTitle--personInfo">
                                         <p class="commentTitle--personInfoName">Отзыв о уборке коттеджа в поселке Салмачи</p>

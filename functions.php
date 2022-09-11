@@ -18,6 +18,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('CliningOfficeReal', get_template_directory_uri() . '/assets/style/CliningOfficeReal.css');
     wp_enqueue_style('WashingWindowsLoggiasKazan', get_template_directory_uri() . '/assets/style/WashingWindowsLoggiasKazan.css');
     wp_enqueue_style('contacts', get_template_directory_uri() . '/assets/style/contacts.css');
+    wp_enqueue_style('photoGallery', get_template_directory_uri() . '/assets/style/photoGallery.css');
 
 
 

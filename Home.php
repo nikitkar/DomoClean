@@ -11,13 +11,13 @@ Template Name: Home
         <div class="sliderWrapper">
             <div class="sliderCarousel">
                 <div class="sliderInner">
-                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg1.png)">
+                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg1.webp)">
                         <div class="sliderItem">
 
                             <div class="conteiner">
                                 <div class="sliderContent">
                                     <div class="sliderContent--decor">
-                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="logo">
+                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.webp" alt="logo">
                                         <h2>Клининговые услуги <span>№1</span> в Казани</h2>
                                         <svg class="sliderContent--bg" width="670" height="545" viewBox="0 0 670 545" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_d_398_4957)">
@@ -43,13 +43,13 @@ Template Name: Home
                             </div>
                         </div>
                     </div>
-                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg2.png)">
+                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg2.webp)">
                         <div class="sliderItem">
 
                             <div class="conteiner">
                                 <div class="sliderContent">
                                     <div class="sliderContent--decor">
-                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="logo">
+                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.webp" alt="logo">
                                         <h2>Клининговые услуги <span>№1</span> в Казани</h2>
                                         <svg class="sliderContent--bg" width="670" height="545" viewBox="0 0 670 545" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_d_398_4957)">
@@ -75,13 +75,13 @@ Template Name: Home
                             </div>
                         </div>
                     </div>
-                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg3.png)">
+                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg3.webp)">
                         <div class="sliderItem">
 
                             <div class="conteiner">
                                 <div class="sliderContent">
                                     <div class="sliderContent--decor">
-                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="logo">
+                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.webp" alt="logo">
                                         <h2>Клининговые услуги <span>№1</span> в Казани</h2>
                                         <svg class="sliderContent--bg" width="670" height="545" viewBox="0 0 670 545" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_d_398_4957)">
@@ -107,13 +107,13 @@ Template Name: Home
                             </div>
                         </div>
                     </div>
-                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg4.png)">
+                    <div class="sliderItems" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/sliderMain/sliderImg4.webp)">
                         <div class="sliderItem">
 
                             <div class="conteiner">
                                 <div class="sliderContent">
                                     <div class="sliderContent--decor">
-                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="logo">
+                                        <img class="sliderContent--imgLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.webp" alt="logo">
                                         <h2>Клининговые услуги <span>№1</span> в Казани</h2>
                                         <svg class="sliderContent--bg" width="670" height="545" viewBox="0 0 670 545" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g filter="url(#filter0_d_398_4957)">
@@ -144,7 +144,7 @@ Template Name: Home
         </div>
     </section>
 
-    <section class="mainInfo" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/mainInfo/mainInfo-bg.png);">
+    <section class="mainInfo" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/mainInfo/mainInfo-bg.webp);">
         <div class="conteiner">
             <div class="mainInfo--wrapper">
                 <h3>Клининговая компания «Домоклин» предлагает клиентам из Казани услуги по профессиональной уборке помещений</h3>
@@ -164,43 +164,43 @@ Template Name: Home
                 <h2 class="ourServices--title">Наши услуги</h2>
 
                 <ul class="listServices">
-                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices1.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices1.webp);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка квартир</p>
                             <a class="listServices--button  buttonStandart" href="/cleacning-apartments">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices2.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices2.webp);">
                         <span class="listServices--item">
                             <p class="listServices--text">Генеральная уборка</p>
                             <a class="listServices--button  buttonStandart" href="/general-cleaning">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices3.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices3.webp);">
                         <span class="listServices--item">
                             <p class="listServices--text">Мытье окон</p>
                             <a class="listServices--button  buttonStandart" href="/washing-windows">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices4.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices4.webp);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка после ремонта</p>
                             <a class="listServices--button  buttonStandart" href="/cleaning-after-repair">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices5.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices5.webp);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка офисных помещений</p>
                             <a class="listServices--button  buttonStandart" href="/cleaning-offices">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices6.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices6.webp);">
                         <span class="listServices--item">
                             <p class="listServices--text">Поддерживающая уборка</p>
                             <a class="listServices--button  buttonStandart" href="/supportive-cleaning">Подробнее</a>
                         </span>
                     </li>
-                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices7.png);">
+                    <li class="listServices--items" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/ourServices/ourServices7.webp);">
                         <span class="listServices--item">
                             <p class="listServices--text">Уборка коттеджа</p>
                             <a class="listServices--button  buttonStandart" href="/cottage-cleaning">Подробнее</a>
@@ -219,29 +219,29 @@ Template Name: Home
 
                     <ul class="offerList">
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img1.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="offerItemImg1">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img1.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.webp" alt="offerItemImg1">
                             </div>
                             <h4 class="offerItem--title">Современные и проверенные материалы</h4>
                             <p class="offerItem--text">Все средства, используемые нами, сертифицированы. Они отвечают требованиям действующих стандартов и являются безопасными.</p>
                         </li>
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img2.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="offerItemImg2">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img2.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="offerItemImg2">
                             </div>
                             <h4 class="offerItem--title">Удобные услуги</h4>
                             <p class="offerItem--text">Специалисты компании «Домоклин» все возьмут с собой. Обеспечивать нас оборудованием и чистящими средствами не нужно. Просто позаботьтесь о доступе к электричеству и воде. Остальное мы сделаем сами.</p>
                         </li>
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img3.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.png" alt="offerItemImg3">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img3.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.webp" alt="offerItemImg3">
                             </div>
                             <h4 class="offerItem--title">Экономия времени клиентов</h4>
                             <p class="offerItem--text">Пунктуальность и ответственность – наши основные принципы. Занимайтесь решением стоящих перед вами задач, не думайте о качестве уборки. Быстрый и качественный сервис – наш конек.</p>
                         </li>
                         <li class="offerList--items">
-                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img4.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img4.png" alt="offerItemImg4">
+                            <div class="offerItem--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img4.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                <img class="offerItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img4.webp" alt="offerItemImg4">
                             </div>
                             <h4 class="offerItem--title">Добросовестность</h4>
                             <p class="offerItem--text">Если качество услуг вас не удовлетворит, мы все исправим. Без прибавки к стоимости. Принимаем аргументированные замечания.</p>
@@ -271,27 +271,27 @@ Template Name: Home
 
                         <ul class="WorksListContent">
                             <li class="WorksItems  WorksItemImg-activ">
-                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg1.png" alt="WorksItems1">
+                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg1.webp" alt="WorksItems1">
                                 <p class="WorksItem--text">Уборка ванной комнаты</p>
                             </li>
                             <li class="WorksItems">
-                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg2.png" alt="WorksItems2">
+                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg2.webp" alt="WorksItems2">
                                 <p class="WorksItem--text">Уборка в детской</p>
                             </li>
                             <li class="WorksItems">
-                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg3.png" alt="WorksItems3">
+                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg3.webp" alt="WorksItems3">
                                 <p class="WorksItem--text">Уборка помещений после ремонта</p>
                             </li>
                             <li class="WorksItems">
-                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg4.png" alt="WorksItems4">
+                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg4.webp" alt="WorksItems4">
                                 <p class="WorksItem--text">Уборка квартиры</p>
                             </li>
                             <li class="WorksItems">
-                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg5.png" alt="WorksItems5">
+                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg5.webp" alt="WorksItems5">
                                 <p class="WorksItem--text">Мойка панорамных окон</p>
                             </li>
                             <li class="WorksItems">
-                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg6.png" alt="WorksItems6">
+                                <img class="WorksItem--img" src="<?php bloginfo('template_url'); ?>/assets/images/ourWorks/ourWorksImg6.webp" alt="WorksItems6">
                                 <p class="WorksItem--text">Комплексная уборка</p>
                             </li>
                         </ul>
@@ -324,7 +324,7 @@ Template Name: Home
                         <div class="commentCustomersContent--wrapper">
                             <div class="commentContentTitle">
                                 <div class="commentTitle--img">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.jpg" alt="commentTitleAvatar">
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.webp" alt="commentTitleAvatar">
                                 </div>
                                 <div class="commentTitle--personInfo">
                                     <p class="commentTitle--personInfoName">Ахметова Ф.Р.</p>
@@ -428,13 +428,13 @@ Template Name: Home
                     <h2 class="ourStocksTitle">Наши акции</h2>
 
                     <ul class="ourStocksSlider">
-                        <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                        <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.webp); background-position: center; background-repeat: no-repeat; background-size: cover;">
                             <div class="ourStocksItems--content">
                                 <h2 class="ourStocksItems--title">Всем новоселам скидка 10%</h2>
                                 <p class="ourStocksItems--text">на уборку квартиры после ремонта</p>
                             </div>
                         </li>
-                        <!-- <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.png); background-position: center; background-repeat: no-repeat; background-size: cover;">
+                        <!-- <li class="ourStocksItems" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/ourStocks/ourStocksSliderImg1.webp); background-position: center; background-repeat: no-repeat; background-size: cover;">
                             <div class="ourStocksItems--content">
                                 <h2 class="ourStocksItems--title">Всем новоселам скидка 10%</h2>
                                 <p class="ourStocksItems--text">на уборку квартиры после ремонта</p>
@@ -456,7 +456,7 @@ Template Name: Home
                     </p>
 
                     <div class="ourAboutBlockInfo">
-                        <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="ourAboutBlockInfoImg1">
+                        <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.webp" alt="ourAboutBlockInfoImg1">
 
                         <div class="ourAboutBlockInfo--content">
                             <h4 class="ourAboutBlockInfo--contentTitle">Лучший сервис</h4>
@@ -476,7 +476,7 @@ Template Name: Home
                     </div>
 
                     <div class="ourAboutBlockInfo  ourAboutBlockInfoReverse">
-                        <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg1.png" alt="ourAboutBlockInfoImg1">
+                        <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg1.webp" alt="ourAboutBlockInfoImg1">
 
                         <div class="ourAboutBlockInfo--content">
                             <h4 class="ourAboutBlockInfo--contentTitle">Мы входим в ТОП лучших клининговых компаний Казани</h4>
@@ -502,8 +502,8 @@ Template Name: Home
                             <h4 class="ourAboutBlockInfo--contentTitle">Чем наша служба может Вам помочь?</h4>
                             <ul class="ourAboutBlockInfo--contentListDecor">
                                 <li class="ourAboutBlockInfo--contentItemsDecor">
-                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="offerItemImg1">
+                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.webp" alt="offerItemImg1">
                                     </div>
                                     <div class="ourAboutBlockInfo--contentItemInner">
                                         <h5 class="ourAboutBlockInfo--contentItemInner--Title">Уборка частных квартир, офисов и загородных домов.</h5>
@@ -511,8 +511,8 @@ Template Name: Home
                                     </div>
                                 </li>
                                 <li class="ourAboutBlockInfo--contentItemsDecor">
-                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="offerItemImg1">
+                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="offerItemImg1">
                                     </div>
 
                                     <div class="ourAboutBlockInfo--contentItemInner">
@@ -532,8 +532,8 @@ Template Name: Home
                                     </div>
                                 </li>
                                 <li class="ourAboutBlockInfo--contentItemsDecor">
-                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.png" alt="offerItemImg1">
+                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.webp" alt="offerItemImg1">
                                     </div>
 
                                     <div class="ourAboutBlockInfo--contentItemInner">
@@ -542,16 +542,16 @@ Template Name: Home
                                     </div>
                                 </li>
                                 <li class="ourAboutBlockInfo--contentItemsDecor">
-                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img5.png" alt="offerItemImg1">
+                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img5.webp" alt="offerItemImg1">
                                     </div>
                                     <div class="ourAboutBlockInfo--contentItemInner">
                                         <h5 class="ourAboutBlockInfo--contentItemInner--Title">Уборка производственных помещений (складов)</h5>
                                     </div>
                                 </li>
                                 <li class="ourAboutBlockInfo--contentItemsDecor">
-                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img4.png" alt="offerItemImg1">
+                                    <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                        <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img4.webp" alt="offerItemImg1">
                                     </div>
                                     <div class="ourAboutBlockInfo--contentItemInner">
                                         <h5 class="ourAboutBlockInfo--contentItemInner--Title">Уборка до и после аренды</h5>
@@ -563,7 +563,7 @@ Template Name: Home
                     </div>
 
                     <div class="ourAboutBlockInfo">
-                        <img class="ourAboutBlockInfo--img  ourAboutBlockInfo--img2" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg2.png" alt="ourAboutBlockInfoImg1">
+                        <img class="ourAboutBlockInfo--img  ourAboutBlockInfo--img2" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg2.webp" alt="ourAboutBlockInfoImg1">
 
                         <div class="ourAboutBlockInfo--content">
                             <h4 class="ourAboutBlockInfo--contentTitle">Услуги премиум класса</h4>

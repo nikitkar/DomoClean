@@ -49,7 +49,7 @@ Template Name: CliningOffice
                         <h2 class="WhyCleaning--title">
                             Почему уборка после ремонта так сложна?
                         </h2>
-                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/backGround.png); background-position: center;">
+                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/backGround.webp); background-position: center;">
                         </div>
                         <p class="WhyCleaning--text">
                             Потому что возникают сложно поддающиеся выведению загрязнения. Примеры уже были представлены. С помощью обыкновенной генеральной уборки справиться с ними объективно невозможно.
@@ -87,8 +87,8 @@ Template Name: CliningOffice
                     <div class="StandardServicesBlock">
                         <ul class="StandardServicesBlock--info">
                             <li class="StandardServicesBlock--items">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Очистка поверхностей</h4>
                                 <br>
@@ -101,8 +101,8 @@ Template Name: CliningOffice
                                 </p>
                             </li>
                             <li class="StandardServicesBlock--items">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img16.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img16.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Удаление пленки, скотча</h4>
                                 <br>
@@ -115,8 +115,8 @@ Template Name: CliningOffice
                                 </p>
                             </li>
                             <li class="StandardServicesBlock--items">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img19.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img19.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Очистка от клея, краски, иных загрязнений всех поверхностей</h4>
                                 <br>
@@ -125,8 +125,8 @@ Template Name: CliningOffice
                                 </p>
                             </li>
                             <li class="StandardServicesBlock--items StandardServicesBlock--items--small">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img12.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img12.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Удаление затирки с кафеля, сантехники</h4>
                                 <br>
@@ -135,8 +135,8 @@ Template Name: CliningOffice
                                 </p>
                             </li>
                             <li class="StandardServicesBlock--items StandardServicesBlock--items--small">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img7.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img7.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Вынос мусора (5 кг – максимум)</h4>
                                 <br>
@@ -236,7 +236,7 @@ Template Name: CliningOffice
                             <div class="commentCustomersContent--wrapper">
                                 <div class="commentContentTitle">
                                     <div class="commentTitle--img">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/avatar.png" alt="commentTitleAvatar">
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/avatar.webp" alt="commentTitleAvatar">
                                     </div>
                                     <div class="commentTitle--personInfo">
                                         <p class="commentTitle--personInfoName">Лазарев Р.Ю</p>

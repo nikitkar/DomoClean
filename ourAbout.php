@@ -33,7 +33,7 @@ Template Name: OurAbout
                         </p>
 
                         <div class="ourAboutBlockInfo">
-                            <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="ourAboutBlockInfoImg1">
+                            <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.webp" alt="ourAboutBlockInfoImg1">
 
                             <div class="ourAboutBlockInfo--content">
                                 <h4 class="ourAboutBlockInfo--contentTitle">Лучший сервис</h4>
@@ -53,7 +53,7 @@ Template Name: OurAbout
                         </div>
 
                         <div class="ourAboutBlockInfo  ourAboutBlockInfoReverse">
-                            <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg1.png" alt="ourAboutBlockInfoImg1">
+                            <img class="ourAboutBlockInfo--img" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg1.webp" alt="ourAboutBlockInfoImg1">
 
                             <div class="ourAboutBlockInfo--content">
                                 <h4 class="ourAboutBlockInfo--contentTitle">Мы входим в ТОП лучших клининговых компаний Казани</h4>
@@ -79,8 +79,8 @@ Template Name: OurAbout
                                 <h4 class="ourAboutBlockInfo--contentTitle">Чем наша служба может Вам помочь?</h4>
                                 <ul class="ourAboutBlockInfo--contentListDecor">
                                     <li class="ourAboutBlockInfo--contentItemsDecor">
-                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.png" alt="offerItemImg1">
+                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img1.webp" alt="offerItemImg1">
                                         </div>
                                         <div class="ourAboutBlockInfo--contentItemInner">
                                             <h5 class="ourAboutBlockInfo--contentItemInner--Title">Уборка частных квартир, офисов и загородных домов.</h5>
@@ -88,8 +88,8 @@ Template Name: OurAbout
                                         </div>
                                     </li>
                                     <li class="ourAboutBlockInfo--contentItemsDecor">
-                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="offerItemImg1">
+                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="offerItemImg1">
                                         </div>
 
                                         <div class="ourAboutBlockInfo--contentItemInner">
@@ -109,8 +109,8 @@ Template Name: OurAbout
                                         </div>
                                     </li>
                                     <li class="ourAboutBlockInfo--contentItemsDecor">
-                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.png" alt="offerItemImg1">
+                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img3.webp" alt="offerItemImg1">
                                         </div>
 
                                         <div class="ourAboutBlockInfo--contentItemInner">
@@ -119,16 +119,16 @@ Template Name: OurAbout
                                         </div>
                                     </li>
                                     <li class="ourAboutBlockInfo--contentItemsDecor">
-                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img5.png" alt="offerItemImg1">
+                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img5.webp" alt="offerItemImg1">
                                         </div>
                                         <div class="ourAboutBlockInfo--contentItemInner">
                                             <h5 class="ourAboutBlockInfo--contentItemInner--Title">Уборка производственных помещений (складов)</h5>
                                         </div>
                                     </li>
                                     <li class="ourAboutBlockInfo--contentItemsDecor">
-                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img4.png" alt="offerItemImg1">
+                                        <div class="ourAboutBlockInfo--contentItemImgDecor" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img5.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                            <img class="ourAboutBlockInfo--contentItemImgDecor--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img4.webp" alt="offerItemImg1">
                                         </div>
                                         <div class="ourAboutBlockInfo--contentItemInner">
                                             <h5 class="ourAboutBlockInfo--contentItemInner--Title">Уборка до и после аренды</h5>
@@ -140,7 +140,7 @@ Template Name: OurAbout
                         </div>
 
                         <div class="ourAboutBlockInfo">
-                            <img class="ourAboutBlockInfo--img  ourAboutBlockInfo--img2" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg2.png" alt="ourAboutBlockInfoImg1">
+                            <img class="ourAboutBlockInfo--img  ourAboutBlockInfo--img2" src="<?php bloginfo('template_url'); ?>/assets/images/outAbout/outAboutImg2.webp" alt="ourAboutBlockInfoImg1">
 
                             <div class="ourAboutBlockInfo--content">
                                 <h4 class="ourAboutBlockInfo--contentTitle">Услуги премиум класса</h4>

@@ -335,7 +335,7 @@
 
                 .ListSliderImg {
                     @include backgroundImg(
-                        "../images/ourWorks/ourWorksDecor/WorksDecorMainImg.png"
+                        "../images/ourWorks/ourWorksDecor/WorksDecorMainImg.webp"
                     );
                     @include displayFlex(flex-start, flex-start);
 
@@ -345,7 +345,7 @@
 
                     &--decor {
                         @include backgroundImg(
-                            "../images/ourWorks/ourWorksDecor/WorksDecor1.png",
+                            "../images/ourWorks/ourWorksDecor/WorksDecor1.webp",
                             contain
                         );
                         @include displayFlex(center, center);

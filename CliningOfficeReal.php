@@ -48,7 +48,7 @@ Template Name: CliningOfficeReal
                         <h2 class="WhyCleaning--title">
                             Отличие офисной уборки от квартирной
                         </h2>
-                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/CliningOfficeReal/back.png)">
+                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/CliningOfficeReal/back.webp)">
                         </div>
                         <p class="WhyCleaning--text--bold">
                             Не нужно быть специалистом, чтобы понимать, что уборка офиса отличается от случая работы клинеров в квартире. Цель одна – чистота помещений, однако задачи отличаются. Особенности профессиональной уборки офисного пространства следующие:
@@ -91,8 +91,8 @@ Template Name: CliningOfficeReal
                     <div class="StandardServicesBlock">
                         <ul class="StandardServicesBlock--info">
                             <li class="StandardServicesBlock--items">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img15.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img15.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Ежедневная базовая чистка.</h4>
                                 <br>
@@ -101,8 +101,8 @@ Template Name: CliningOfficeReal
                                 </p>
                             </li>
                             <li class="StandardServicesBlock--items">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img18.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img18.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Комплексная генеральная уборка.</h4>
                                 <br>
@@ -111,8 +111,8 @@ Template Name: CliningOfficeReal
                                 </p>
                             </li>
                             <li class="StandardServicesBlock--items">
-                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img11.png" alt="offerItemImg1">
+                                <div class="StandardServicesBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img11.webp" alt="offerItemImg1">
                                 </div>
                                 <h4 class="StandardServicesBlock--title">Разовые работы или отдельные услуги.</h4>
                                 <br>
@@ -195,7 +195,7 @@ Template Name: CliningOfficeReal
                             <div class="commentCustomersContent--wrapper">
                                 <div class="commentContentTitle">
                                     <div class="commentTitle--img">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/avatar.png" alt="commentTitleAvatar">
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/avatar.webp" alt="commentTitleAvatar">
                                     </div>
                                     <div class="commentTitle--personInfo">
                                         <p class="commentTitle--personInfoName">Бизнес-центр в Левченко</p>

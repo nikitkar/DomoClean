@@ -60,8 +60,8 @@ Template Name: MaintenanceCleaning
                     <div class="StandardServicesMBlock">
                         <ul class="StandardServicesMBlock--info">
                             <li class="StandardServicesMBlock--items">
-                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img17.png" alt="offerItemImg1">
+                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/decor/Img6.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img17.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesMBlock--title">
                                     Комнаты, помещения
@@ -76,8 +76,8 @@ Template Name: MaintenanceCleaning
                                 </ul>
                             </li>
                             <li class="StandardServicesMBlock--items">
-                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/decor.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img9.png" alt="offerItemImg1">
+                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/decor.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img9.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesMBlock--title">
                                     Кухня
@@ -92,8 +92,8 @@ Template Name: MaintenanceCleaning
                                 </ul>
                             </li>
                             <li class="StandardServicesMBlock--items">
-                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/decor.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img13.png" alt="offerItemImg1">
+                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/decor.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img13.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesMBlock--title">
                                     Ванная, санузел
@@ -109,8 +109,8 @@ Template Name: MaintenanceCleaning
                                 </ul>
                             </li>
                             <li class="StandardServicesMBlock--items">
-                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/decor.png); background-position: center; background-repeat: no-repeat; background-size: contain">
-                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img14.png" alt="offerItemImg1">
+                                <div class="StandardServicesMBlock--imgInner" style="background: url(<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/decor.webp); background-position: center; background-repeat: no-repeat; background-size: contain">
+                                    <img class="StandardServicesMBlock--img" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img14.webp" alt="offerItemImg1">
                                 </div>
                                 <p class="StandardServicesMBlock--title">
                                     Коридор, прихожая

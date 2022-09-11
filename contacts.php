@@ -31,7 +31,7 @@ Template Name: contacts
 
                         <section class="map">
                             <div class="mapWrapper">
-                                <div class="mapImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/Contacts/map.png);"></div>
+                                <div class="mapImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/Contacts/map.webp);"></div>
 
                                 <ul class="mapContent">
                                     <li class="footerItems">

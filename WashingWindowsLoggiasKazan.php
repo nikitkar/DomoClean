@@ -42,7 +42,7 @@ Template Name: WashingWindowsLoggiasKazan
                 <section class="WhyCleaning">
                     <div class="WhyCleaning--info">
                         <h2 class="WhyCleaning--title">Почему стоит доверить мойку клинерам?</h2>
-                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg1.png); background-position: center;">
+                        <div class="WhyCleaningImg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg1.webp); background-position: center;">
                         </div>
                         <p class="WhyCleaning--text">
                             <span>Потому что они являются профессионалами своего дела. Исключаются:</span>
@@ -63,27 +63,27 @@ Template Name: WashingWindowsLoggiasKazan
 
                     <ul class="typesWindowsList">
                         <li class="typesWindowsItems">
-                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg1.png);"></div>
+                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg1.webp);"></div>
                             <p class="typesWindowsItem--text">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.</p>
                         </li>
                         <li class="typesWindowsItems">
-                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg2.png);"></div>
+                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg2.webp);"></div>
                             <p class="typesWindowsItem--text">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.</p>
                         </li>
                         <li class="typesWindowsItems">
-                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg3.png);"></div>
+                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg3.webp);"></div>
                             <p class="typesWindowsItem--text">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.</p>
                         </li>
                         <li class="typesWindowsItems">
-                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg4.png);"></div>
+                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg4.webp);"></div>
                             <p class="typesWindowsItem--text">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.</p>
                         </li>
                         <li class="typesWindowsItems">
-                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg5.png);"></div>
+                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg5.webp);"></div>
                             <p class="typesWindowsItem--text">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.</p>
                         </li>
                         <li class="typesWindowsItems">
-                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg6.png);"></div>
+                            <div class="typesWindowsItem--img" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/typesWindows/typesWindowsImg6.webp);"></div>
                             <p class="typesWindowsItem--text">Мытье полов, плинтусов, фасадов кухни, кафеля, столешниц, ванны и душевой кабины.</p>
                         </li>
                     </ul>
@@ -103,7 +103,7 @@ Template Name: WashingWindowsLoggiasKazan
                     <ul class="WhatIncludedPresentedServiceList">
                         <li class="WhatIncludedPresentedServiceItems">
                             <div class="typeCleaningItemImg--inner   WhatIncludedPresentedServiceItemImg--inner">
-                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img15.png" alt="typeCleaningItemImg">
+                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img15.webp" alt="typeCleaningItemImg">
                             </div>
                             <p class="WhatIncludedPresentedServiceItemText">
                                 Оконные рамы
@@ -111,7 +111,7 @@ Template Name: WashingWindowsLoggiasKazan
                         </li>
                         <li class="WhatIncludedPresentedServiceItems">
                             <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img18.png" alt="typeCleaningItemImg">
+                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img18.webp" alt="typeCleaningItemImg">
                             </div>
                             <p class="WhatIncludedPresentedServiceItemText">
                                 Уплотнители
@@ -119,7 +119,7 @@ Template Name: WashingWindowsLoggiasKazan
                         </li>
                         <li class="WhatIncludedPresentedServiceItems">
                             <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img11.png" alt="typeCleaningItemImg">
+                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img11.webp" alt="typeCleaningItemImg">
                             </div>
                             <p class="WhatIncludedPresentedServiceItemText">
                                 Внешнюю сторону остекления
@@ -127,7 +127,7 @@ Template Name: WashingWindowsLoggiasKazan
                         </li>
                         <li class="WhatIncludedPresentedServiceItems">
                             <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.png" alt="typeCleaningItemImg">
+                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img2.webp" alt="typeCleaningItemImg">
                             </div>
                             <p class="WhatIncludedPresentedServiceItemText">
                                 Подоконники
@@ -135,7 +135,7 @@ Template Name: WashingWindowsLoggiasKazan
                         </li>
                         <li class="WhatIncludedPresentedServiceItems">
                             <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img6.png" alt="typeCleaningItemImg">
+                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img6.webp" alt="typeCleaningItemImg">
                             </div>
                             <p class="WhatIncludedPresentedServiceItemText">
                                 Москитные сетки
@@ -143,7 +143,7 @@ Template Name: WashingWindowsLoggiasKazan
                         </li>
                         <li class="WhatIncludedPresentedServiceItems">
                             <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img10.png" alt="typeCleaningItemImg">
+                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img10.webp" alt="typeCleaningItemImg">
                             </div>
                             <p class="WhatIncludedPresentedServiceItemText">
                                 Откосы, отливы
@@ -151,7 +151,7 @@ Template Name: WashingWindowsLoggiasKazan
                         </li>
                         <li class="WhatIncludedPresentedServiceItems">
                             <div class="typeCleaningItemImg--inner  WhatIncludedPresentedServiceItemImg--inner">
-                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img15.png" alt="typeCleaningItemImg">
+                                <img class="typeCleaningItemImg  WhatIncludedPresentedServiceItemImg" src="<?php bloginfo('template_url'); ?>/assets/images/frequentlyUsedIcons/Img15.webp" alt="typeCleaningItemImg">
                             </div>
                             <p class="WhatIncludedPresentedServiceItemText">
                                 Фурнитуру
@@ -165,7 +165,7 @@ Template Name: WashingWindowsLoggiasKazan
 
                     <ul class="cleaningNecessityList  whatGuaranteeList">
                         <li class="cleaningNecessityItems  whatGuaranteeItems">
-                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg2.png);"></div>
+                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg2.webp);"></div>
                             <div class="cleaningNecessityItemInner">
                                 <h5 class="cleaningNecessityItemTitle">Совершенная чистота.</h5>
                                 <p class="cleaningNecessityItemText">На окнах не будет разводов, подтеков, следов от чистящих средств.
@@ -173,7 +173,7 @@ Template Name: WashingWindowsLoggiasKazan
                             </div>
                         </li>
                         <li class="cleaningNecessityItems  whatGuaranteeItems">
-                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg3.png);"></div>
+                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg3.webp);"></div>
                             <div class="cleaningNecessityItemInner">
                                 <h5 class="cleaningNecessityItemTitle">Сохранность имущества.</h5>
                                 <p class="cleaningNecessityItemText">Сотрудники клининговой компании несут материальную ответственность. Они заинтересованы в сохранности предметов, вещей, принадлежащих заказчикам.
@@ -181,7 +181,7 @@ Template Name: WashingWindowsLoggiasKazan
                             </div>
                         </li>
                         <li class="cleaningNecessityItems  whatGuaranteeItems">
-                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg4.png);"></div>
+                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg4.webp);"></div>
                             <div class="cleaningNecessityItemInner">
                                 <h5 class="cleaningNecessityItemTitle">Работа с любыми типами конструкций.</h5>
                                 <p class="cleaningNecessityItemText">Сложность и формы нас не пугают.
@@ -189,7 +189,7 @@ Template Name: WashingWindowsLoggiasKazan
                             </div>
                         </li>
                         <li class="cleaningNecessityItems  whatGuaranteeItems">
-                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg5.png);"></div>
+                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg5.webp);"></div>
                             <div class="cleaningNecessityItemInner">
                                 <h5 class="cleaningNecessityItemTitle">Финансовая уверенность.</h5>
                                 <p class="cleaningNecessityItemText">
@@ -198,7 +198,7 @@ Template Name: WashingWindowsLoggiasKazan
                             </div>
                         </li>
                         <li class="cleaningNecessityItems  whatGuaranteeItems">
-                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg6.png);"></div>
+                            <div class="cleaningNecessityItemImg  whatGuaranteeItemImg" style="background-image: url(<?php bloginfo('template_url'); ?>/assets/images/WashingWindowsLoggiasKazan/WashingWindowsLoggiasKazanImg6.webp);"></div>
                             <div class="cleaningNecessityItemInner">
                                 <h5 class="cleaningNecessityItemTitle">Экономия вашего времени.</h5>
                                 <p class="cleaningNecessityItemText">
@@ -264,7 +264,7 @@ Template Name: WashingWindowsLoggiasKazan
                             <div class="commentCustomersContent--wrapper">
                                 <div class="commentContentTitle">
                                     <div class="commentTitle--img">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.jpg" alt="commentTitleAvatar">
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.webp" alt="commentTitleAvatar">
                                     </div>
                                     <div class="commentTitle--personInfo">
                                         <p class="commentTitle--personInfoName">Алабина Е.Ф.</p>

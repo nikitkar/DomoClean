@@ -4,7 +4,7 @@
                         <ul class="footerList">
                             <li class="footerItems" style="max-width: 401px;">
                                 <a href="/">
-                                    <img class="footerLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.png" alt="footerLogo">
+                                    <img class="footerLogo" src="<?php bloginfo('template_url'); ?>/assets/images/logo/logoBold.webp" alt="footerLogo">
                                 </a>
                             </li>
                             <li class="footerItems">
