@@ -14,7 +14,7 @@ Template Name: services
                     <a class="breadcrumbs--main" href="/">
                         На главную</a>
                     <span class="breadcrumbs--separator">/</span>
-                    <a class="breadcrumbs--child" href="/MaintenanceCleaning">
+                    <a class="breadcrumbs--child" href="/services">
                         Услуги
                     </a>
                 </div>

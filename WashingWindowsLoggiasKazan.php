@@ -14,7 +14,7 @@ Template Name: WashingWindowsLoggiasKazan
                     <a class="breadcrumbs--main" href="/">
                         На главную</a>
                     <span class="breadcrumbs--separator">/</span>
-                    <a class="breadcrumbs--child" href="/cleacning-apartments">
+                    <a class="breadcrumbs--child" href="/washing-windows">
                         Мойка окон и лоджий в Казани
                     </a>
                 </div>

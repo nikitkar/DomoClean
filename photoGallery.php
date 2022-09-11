@@ -14,7 +14,7 @@ Template Name: photoGallety
                     <a class="breadcrumbs--main" href="/">
                         На главную</a>
                     <span class="breadcrumbs--separator">/</span>
-                    <a class="breadcrumbs--child" href="/cliningoffice">
+                    <a class="breadcrumbs--child" href="/photogallery">
                         Фотогалерея
                     </a>
                 </div>

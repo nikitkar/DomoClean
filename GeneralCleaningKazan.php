@@ -14,7 +14,7 @@ Template Name: GeneralCleaning
                     <a class="breadcrumbs--main" href="/">
                         На главную</a>
                     <span class="breadcrumbs--separator">/</span>
-                    <a class="breadcrumbs--child" href="/cleacning-apartments">
+                    <a class="breadcrumbs--child" href="/general-cleaning">
                         Генеральная уборка в Казани
                     </a>
                 </div>
