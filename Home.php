@@ -442,7 +442,7 @@ Template Name: Home
                         </li> -->
                     </ul>
 
-                    <a class="ourStocksBtn  buttonStandart" href="javascript:void(0);">Перейти к акциям</a>
+                    <a class="ourStocksBtn  buttonStandart" href="/stocks">Перейти к акциям</a>
                 </div>
             </div>
         </section>

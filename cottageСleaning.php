@@ -282,7 +282,7 @@ Template Name: CottageClining
                             <li class="questionsItems">
                                 <button class="itemBtn">Сколько займет работа?</button>
                                 <div class="itemInner">
-                                    <p>Пример</p>
+                                    <p>Работа в среднем занимает 6-8 часов. Это зависит от площади дома, от загрязненности, иных факторов. Если будет необходимо провести дополнительные услуги вроде мытья окон, время на уборку увеличится.</p>
                                 </div>
                             </li>
                             <li class="questionsItems">

@@ -255,7 +255,7 @@ Template Name: GeneralCleaning
                                 <div class="commentCustomersContent--wrapper">
                                     <div class="commentContentTitle">
                                         <div class="commentTitle--img">
-                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/comment/avatar.webp" alt="commentTitleAvatar">
+                                            <img src="<?php bloginfo('template_url'); ?>/assets/images/CliningOffice/avatar.webp" alt="commentTitleAvatar">
                                         </div>
                                         <div class="commentTitle--personInfo">
                                             <p class="commentTitle--personInfoName">Семья Беловых</p>
@@ -300,7 +300,7 @@ Template Name: GeneralCleaning
                                 </div>
                             </div>
 
-                            <a class="commentCustomersBtn  buttonStandart" href="javascript:void(0);">Перейти к отзывам</a>
+                            <a class="commentCustomersBtn  buttonStandart" href="/reviews">Перейти к отзывам</a>
                         </div>
                     </section>
 

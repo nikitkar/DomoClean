@@ -113,7 +113,7 @@
                                             </a>
                                         </li>
                                         <li class="menuList--modileItems">
-                                            <a class="menuList--modileItem" href="/photo-gallery">
+                                            <a class="menuList--modileItem" href="/photogallery">
                                                 Фотогалерея
                                             </a>
                                         </li>

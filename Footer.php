@@ -8,13 +8,13 @@
                                 </a>
                             </li>
                             <li class="footerItems">
-                                <a class="footerItem" href="javascript:void(0);">Информация</a>
-                                <a class="footerItem" href="javascript:void(0);">Акции и скидки</a>
-                                <a class="footerItem" href="javascript:void(0);">Сертификаты</a>
+                                <a class="footerItem" href="/contacts">Информация</a>
+                                <a class="footerItem" href="/stocks">Акции и скидки</a>
+                                <a class="footerItem" href="/contacts">Сертификаты</a>
                                 <a class="footerItem" href="javascript:void(0);">Вакансии</a>
                                 <a class="footerItem" href="/contacts">Контакты</a>
                                 <a class="footerItem" href="javascript:void(0);">Статьи</a>
-                                <a class="footerItem" href="javascript:void(0);">Видео</a>
+                                <a class="footerItem" href="/contacts">Видео</a>
                                 <a class="footerItem" href="javascript:void(0);">Рекламодателям</a>
                             </li>
                             <li class="footerItems">
@@ -79,7 +79,7 @@
                         <div class="footerPaymentMethod">
                             <div class="footerPaymentMethod--privacyPolicy">
                                 <p>2022 @DOMOCLEAN.RU”</p>
-                                <a href="javascript:void(0);">Политика конфиденциальности</a>
+                                <a href="/privacyPolicy">Политика конфиденциальности</a>
                             </div>
                             <ul class="footerPaymentMethod--list">
                                 <li class="footerPaymentMethod--items">
