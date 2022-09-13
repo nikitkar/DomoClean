@@ -71,7 +71,7 @@
                 }
 
                 &--info {
-                    @include displayFlex(flex-start, normal);
+                    @include displayFlex(flex-start, space-around);
                     flex-wrap: wrap;
                     gap: 10px 32px;
                 }

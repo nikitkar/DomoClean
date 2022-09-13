@@ -79,7 +79,7 @@
                         <div class="footerPaymentMethod">
                             <div class="footerPaymentMethod--privacyPolicy">
                                 <p>2022 @DOMOCLEAN.RU”</p>
-                                <a href="/privacyPolicy">Политика конфиденциальности</a>
+                                <a href="/privacypolicy">Политика конфиденциальности</a>
                             </div>
                             <ul class="footerPaymentMethod--list">
                                 <li class="footerPaymentMethod--items">
