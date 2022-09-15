@@ -186,6 +186,8 @@ Template Name: CliningOfficeReal
                             </tr>
                         </table>
                     </div>
+
+                    <a class="AfterRenivationBtn  buttonStandart" href="/price">Посмотреть весь прайс</a>
                 </section>
                 <section class="commentCustomers">
                     <div class="commentCustomersWrapper">
@@ -275,9 +277,9 @@ Template Name: CliningOfficeReal
                                 <button class="itemBtn">Что входит в клининг офиса?</button>
                                 <div class="itemInner">
                                     <p>Удаление пыли с любых поверхностей с помощью пылесоса. <br>
-                                    Влажная уборка. Мы обработаем подоконники, двери, радиаторы. <br>
-                                    Дезинфекция уборных, мойка зеркал. <br>
-                                    Вынос мусора.
+                                        Влажная уборка. Мы обработаем подоконники, двери, радиаторы. <br>
+                                        Дезинфекция уборных, мойка зеркал. <br>
+                                        Вынос мусора.
                                     </p>
                                 </div>
                             </li>

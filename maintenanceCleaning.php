@@ -54,7 +54,7 @@ Template Name: MaintenanceCleaning
                             Что входит в уборку
                         </h1>
                         <p class="StandardServicesM--text">
-                            За услугой по уборке частного дома к нам обращаются многие жители Казани. Она является достаточно востребованной. Нас спрашивают, какие именно работы выполняют клинеры компании. Отвечаем: в данный перечень входит несколько позиций. 
+                            За услугой по уборке частного дома к нам обращаются многие жители Казани. Она является достаточно востребованной. Нас спрашивают, какие именно работы выполняют клинеры компании. Отвечаем: в данный перечень входит несколько позиций.
                         </p>
                     </div>
                     <div class="StandardServicesMBlock">
@@ -207,6 +207,8 @@ Template Name: MaintenanceCleaning
                             </tr>
                         </table>
                     </div>
+
+                    <a class="AfterRenivationBtn  buttonStandart" href="/price">Посмотреть весь прайс</a>
                 </section>
                 <section class="questions">
                     <div class="questionsWrapper">

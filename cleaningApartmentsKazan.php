@@ -195,14 +195,16 @@ Template Name: cleaningApartmentsKazan
                         </p>
                     </div>
 
-                    <section class="feedback" id="feedback">
-                        <div class="feedbackWrapper">
-                            <h3 class="feedbackTitle">Получите бесплатную консультацию<br> и расчет стоимости уборки</h3>
-                            <p class="feedbackText">Оставьте свой номер телефона и наш менеджер перезвонит вам в течение 15 минут</p>
-                            <form class="feedbackForm">
-                                <input class="feedbackForm--input" type="tel" placeholder="Номер телефона">
-                                <button class="feedbackBtn buttonStandart">Отправить</button>
-                            </form>
+                    <section class="feedback" id="feedback" style="margin-bottom: 48px">
+                        <div class="conteiner">
+                            <div class="feedbackWrapper" style="background-color: var(--Color__BGGrey);">
+                                <h3 class="feedbackTitle">Получите бесплатную консультацию<br> и расчет стоимости уборки</h3>
+                                <p class="feedbackText">Оставьте свой номер телефона (без плюса) и наш менеджер перезвонит вам в течение 15 минут</p>
+                                <form class="feedbackForm" id="feedbackForm">
+                                    <input class="feedbackForm--input" required type="tel" placeholder="Номер телефона" name="telephone">
+                                    <button class="feedbackBtn buttonStandart">Отправить</button>
+                                </form>
+                            </div>
                         </div>
                     </section>
 
@@ -413,7 +415,7 @@ Template Name: cleaningApartmentsKazan
                             </table>
                         </div>
 
-                        <a class="AfterRenivationBtn  buttonStandart" href="javascript:void(0);">Посмотреть весь прайс</a>
+                        <a class="AfterRenivationBtn  buttonStandart" href="/price">Посмотреть весь прайс</a>
                     </section>
 
                     <section class="commentCustomers">
@@ -461,7 +463,7 @@ Template Name: cleaningApartmentsKazan
                                         <p class="commentContentText--text">
                                             Юбилей – дело такое. Не отмашешься, только согласно кивнешь и начнешь накрывать стол. Но то, что остается после торжества, домом назвать сложно. Особенно, если гости приезжают из самых разных городов. <br>
                                             Сначала я решила сама разобраться с тем, что осталось после уехавших друзей мужа. Через пару часов поняла, конца уборки не видно при самом ярком освещении. <br>
-                                            На следующий день зашла на просторы интернета стала искать по всяким форумам, но тщетно. Пока одна из участниц  не поделилась ссылкой на компанию Domoclean. Сначала отмахнулась. Потом медленно и спокойно вчиталась в перечень услуг. Через час появилась надежда на спасение. <br>
+                                            На следующий день зашла на просторы интернета стала искать по всяким форумам, но тщетно. Пока одна из участниц не поделилась ссылкой на компанию Domoclean. Сначала отмахнулась. Потом медленно и спокойно вчиталась в перечень услуг. Через час появилась надежда на спасение. <br>
                                             Чтобы проверить – не сон ли это, позвонила в организацию. Ответил приятный молодой голос, которому я поведала о своих страданиях. На том конце трубки не стали долго рассуждать, а выдали план по спасению меня и моего жилища. <br>
                                             План был основательный. О цене даже боялась спросить. Но выдохнула, когда услышала конечную цифру. Относительно дешево получилось. <br>
                                             Это был первый раз моего пользования услугами клининга. Договорились. На следующий день в точное время приехали девочки. С чистящими и моющими. Пылесосами и набором каких-то инструментов. <br>

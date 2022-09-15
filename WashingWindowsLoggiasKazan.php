@@ -254,6 +254,8 @@ Template Name: WashingWindowsLoggiasKazan
                             </tr>
                         </table>
                     </div>
+
+                    <a class="AfterRenivationBtn  buttonStandart" href="/price">Посмотреть весь прайс</a>
                 </section>
 
                 <section class="commentCustomers">

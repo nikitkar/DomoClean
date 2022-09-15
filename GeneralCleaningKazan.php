@@ -244,7 +244,7 @@ Template Name: GeneralCleaning
                             </table>
                         </div>
 
-                        <a class="AfterRenivationBtn  buttonStandart" href="javascript:void(0);">Посмотреть весь прайс</a>
+                        <a class="AfterRenivationBtn  buttonStandart" href="/price">Посмотреть весь прайс</a>
                     </section>
 
                     <section class="commentCustomers">

@@ -302,13 +302,13 @@ Template Name: Home
             </div>
         </section>
 
-        <section class="feedback" id="feedback">
+        <section class="feedback" id="feedback" style="margin-bottom: 48px">
             <div class="conteiner">
-                <div class="feedbackWrapper">
+                <div class="feedbackWrapper" style="background-color: var(--Color__BGGrey);">
                     <h3 class="feedbackTitle">Получите бесплатную консультацию<br> и расчет стоимости уборки</h3>
-                    <p class="feedbackText">Оставьте свой номер телефона и наш менеджер перезвонит вам в течение 15 минут</p>
-                    <form class="feedbackForm">
-                        <input class="feedbackForm--input" type="tel" placeholder="Номер телефона">
+                    <p class="feedbackText">Оставьте свой номер телефона (без плюса) и наш менеджер перезвонит вам в течение 15 минут</p>
+                    <form class="feedbackForm" id="feedbackForm">
+                        <input class="feedbackForm--input" required type="tel" placeholder="Номер телефона" name="telephone" >
                         <button class="feedbackBtn buttonStandart">Отправить</button>
                     </form>
                 </div>

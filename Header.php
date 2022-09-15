@@ -88,7 +88,7 @@
                                         </a>
                                     </li>
                                     <button class="offerBtn buttonStandart">
-                                        <a href="#feedback">Заказать клининг</a>
+                                        <a href="/#feedback">Заказать клининг</a>
                                     </button>
                                 </ul>
 
@@ -140,7 +140,7 @@
                                     </ul>
 
                                     <button class="offerBtn buttonStandart" style="margin: 0;">
-                                        <a href="#feedback">Заказать клининг</a>
+                                        <a href="/#feedback">Заказать клининг</a>
                                     </button>
                                 </ul>
                             </nav>

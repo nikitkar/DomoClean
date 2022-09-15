@@ -172,7 +172,7 @@
                 &--info {
                     @include displayFlex(center, space-evenly);
                     flex-wrap: wrap;
-                    gap: 32px;
+                    // gap: 32px;
                 }
 
                 &--items {
