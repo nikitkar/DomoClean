@@ -1,8 +1,6 @@
-<?php
+<?php 
+
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('reboot-style-child', get_stylesheet_uri(), array('reboot-style'));
-
-
     wp_enqueue_style('reset', get_template_directory_uri() . '/assets/style/reset.css');
     wp_enqueue_style('slick', get_template_directory_uri() . '/assets/style/slick.css');
     wp_enqueue_style('jquery', get_template_directory_uri() . '/assets/style/jquery.fancybox.css');

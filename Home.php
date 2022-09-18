@@ -308,8 +308,10 @@ Template Name: Home
                     <h3 class="feedbackTitle">Получите бесплатную консультацию<br> и расчет стоимости уборки</h3>
                     <p class="feedbackText">Оставьте свой номер телефона (без плюса) и наш менеджер перезвонит вам в течение 15 минут</p>
                     <form class="feedbackForm" id="feedbackForm">
-                        <input class="feedbackForm--input" required type="tel" placeholder="Номер телефона" name="telephone" >
-                        <button class="feedbackBtn buttonStandart">Отправить</button>
+                        <!-- <input class="feedbackForm--input" required type="tel" placeholder="Номер телефона" name="telephone" >
+                        <button class="feedbackBtn buttonStandart">Отправить</button> -->
+
+                        <?php echo do_shortcode('[contact-form-7 id="107" title="sendEmail1"]') ?>
                     </form>
                 </div>
             </div>

@@ -42,54 +42,54 @@ for (let i = 0; i < questionsBlockHomePage.length; i++) {
     });
 }
 
-let buttonFeedback = document.getElementsByClassName("feedbackBtn");
+// let buttonFeedback = document.getElementsByClassName("feedbackBtn");
 
-for (let i = 0; i < buttonFeedback.length; i++) {
-    buttonFeedback[i].addEventListener("click", (e) => {
-        e.preventDefault();
+// for (let i = 0; i < buttonFeedback.length; i++) {
+//     buttonFeedback[i].addEventListener("click", (e) => {
+//         e.preventDefault();
 
-        (function () {
-            emailjs.init("uHNkPMu8Oj_bDRYh9");
-        })();
+//         (function () {
+//             emailjs.init("uHNkPMu8Oj_bDRYh9");
+//         })();
 
-        const formData = new FormData(feedbackForm);
-        const telephone = formData.get("telephone");
-        const ParseTelephone = parseInt(telephone).toString();
+//         const formData = new FormData(feedbackForm);
+//         const telephone = formData.get("telephone");
+//         const ParseTelephone = parseInt(telephone).toString();
 
-        let content = {
-            from_name: "DomoClean auto responder",
-            to_name: "DomoClean",
-            message: `Call back / write to the number - ${telephone}`,
-        };  
+//         let content = {
+//             from_name: "DomoClean auto responder",
+//             to_name: "DomoClean",
+//             message: `Call back / write to the number - ${telephone}`,
+//         };
 
-        if (
-            telephone == "" ||
-            telephone == null ||
-            telephone == undefined ||
-            telephone == " "
-        )
-            alert("Заполните поле ввода");
-        else {
-            if (ParseTelephone.length < telephone.length)
-                alert("Введите только номер телефона");
-            else {
-                emailjs
-                    .send("service_fudk1mk", "template_lzv5ed3", content)
-                    .then(
-                        () => {
-                            alert("Успешное отправление!!!");
-                        },
-                        (error) => {
-                            console.log(error);
-                            alert(
-                                `Ошибка: status -  ${error.status}\nСообщение ошибки - ${error.text}`
-                            );
-                        }
-                    );
-            }
-        }
-    });
-}
+//         if (
+//             telephone == "" ||
+//             telephone == null ||
+//             telephone == undefined ||
+//             telephone == " "
+//         )
+//             alert("Заполните поле ввода");
+//         else {
+//             if (ParseTelephone.length < telephone.length)
+//                 alert("Введите только номер телефона");
+//             else {
+//                 emailjs
+//                     .send("service_fudk1mk", "template_lzv5ed3", content)
+//                     .then(
+//                         () => {
+//                             alert("Успешное отправление!!!");
+//                         },
+//                         (error) => {
+//                             console.log(error);
+//                             alert(
+//                                 `Ошибка: status -  ${error.status}\nСообщение ошибки - ${error.text}`
+//                             );
+//                         }
+//                     );
+//             }
+//         }
+//     });
+// }
 
 const burger = document.getElementById("navToggle");
 const sidebar = document.getElementById("sidebar");

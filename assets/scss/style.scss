@@ -473,6 +473,22 @@
                     color: black;
                 }
             }
+
+            & > div {
+                width: 100%;
+
+                p {
+                    @include displayFlex(center, space-between);
+                    gap: 24px;
+
+                    max-width: 829px;
+                    width: 100%;
+
+                    span{
+                        width: 100%;
+                    }
+                }
+            }
         }
 
         &Btn {
